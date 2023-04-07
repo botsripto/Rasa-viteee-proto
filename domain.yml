@@ -1,0 +1,787 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - aboutbot
+
+  ########  general #######
+  - viteee_faq_general_q1
+  - viteee_faq_general_q2
+  - viteee_faq_general_q3
+  - viteee_faq_general_q4
+  - viteee_faq_general_q5
+  - viteee_faq_general_q6
+  - viteee_faq_general_q7
+  - viteee_faq_general_q8
+
+  ########  admission ######
+  - viteee_faq_admission_q1
+  - viteee_faq_admission_q2
+
+  ########  related ######
+  - viteee_faq_related_q1
+  - viteee_faq_related_q2
+  - viteee_faq_related_q3
+  - viteee_faq_related_q4
+  - viteee_faq_related_q5
+  - viteee_faq_related_q6
+  - viteee_faq_related_q7
+  - viteee_faq_related_q8
+  - viteee_faq_related_q9
+
+  ########  eligibility-related ######
+  - viteee_faq_eligibility_related_q1
+  - viteee_faq_eligibility_related_q2
+  - viteee_faq_eligibility_related_q3
+  - viteee_faq_eligibility_related_q4
+
+  ########  ranking-related ######
+  - viteee_faq_ranking_related_q1
+  - viteee_faq_ranking_related_q2
+  - viteee_faq_ranking_related_q3
+  - viteee_faq_ranking_related_q4
+
+  ########  transaction-related ######
+  - viteee_faq_transaction_related_q1
+  - viteee_faq_transaction_related_q2
+  - viteee_faq_transaction_related_q3
+  - viteee_faq_transaction_related_q4
+
+  ########  slot-booking ######
+  - viteee_faq_slot_booking_q1
+  - viteee_faq_slot_booking_q2
+  - viteee_faq_slot_booking_q3
+  - viteee_faq_slot_booking_q4
+  - viteee_faq_slot_booking_q5
+  - viteee_faq_slot_booking_q6
+
+  ########  scholarship ######
+  - viteee_faq_scholarship_q1
+  - viteee_faq_scholarship_q2
+  
+  ########  hostel ######
+  - viteee_faq_hostel_q1
+  - viteee_faq_hostel_q2
+
+  ########  academic ######
+  - viteee_faq_academic_q1
+  - viteee_faq_academic_q2
+  - viteee_faq_academic_q3
+  - viteee_faq_academic_q4
+  - viteee_faq_academic_q5
+  - viteee_faq_academic_q6
+
+  ########  nri ######
+  - viteee_faq_nri_q1
+  - viteee_faq_nri_q2
+  - viteee_faq_nri_q3
+  - viteee_faq_nri_q4
+  - viteee_faq_nri_q5
+
+  ########  viteee-bcom ######
+  - viteee_BComm_q1
+  - viteee_BComm_q2
+  - viteee_BComm_q3
+  - viteee_BComm_q4
+  - viteee_BComm_q5
+
+  ########  vitee-bba ######
+  - viteee_BBA_about_q1
+  - viteee_BBA_about_q2
+  - viteee_BBA_about_q3
+  - viteee_BBA_about_q4
+  - viteee_BBA_about_q5
+  - viteee_BBA_about_q6
+
+########  msc-physcis ########
+  - viteee_msc_physics_q1
+  - viteee_msc_physics_q2
+  - viteee_msc_physics_q3
+  - viteee_msc_physics_q4
+  - viteee_msc_physics_q5
+  - viteee_msc_physics_q6
+  
+  ########  msc-chemistry-application  ########
+  - viteee_msc_chemistry_application_q1
+  - viteee_msc_chemistry_application_q2
+  - viteee_msc_chemistry_application_q3
+  - viteee_msc_chemistry_application_q4
+  - viteee_msc_chemistry_application_q5
+  - viteee_msc_chemistry_application_q6
+  - viteee_msc_chemistry_application_q7
+  - viteee_msc_chemistry_application_q8
+  - viteee_msc_chemistry_application_q9
+  - viteee_msc_chemistry_application_q10
+  - viteee_msc_chemistry_application_q11
+  - viteee_msc_chemistry_application_q12
+
+  ########  msc-chemistry-fee  ########
+  - viteee_msc_chemistry_fee_q1
+  - viteee_msc_chemistry_fee_q2
+  - viteee_msc_chemistry_fee_q3
+  - viteee_msc_chemistry_fee_q4
+  - viteee_msc_chemistry_fee_q5
+  - viteee_msc_chemistry_fee_q6
+  - viteee_msc_chemistry_fee_q7
+  - viteee_msc_chemistry_fee_q8
+
+  ########  msc-data-science-general-info   ########
+  - viteee_msc_data_science_general_info_q1
+  - viteee_msc_data_science_general_info_q2
+  - viteee_msc_data_science_general_info_q3
+  - viteee_msc_data_science_general_info_q4
+
+  ########  msc-data-science-program-info   ########
+  - viteee_msc_data_science_program_info_q1
+  - viteee_msc_data_science_program_info_q2
+
+  ########  msc-data-science-admission   ########
+  - viteee_msc_data_science_admission_q1
+  - viteee_msc_data_science_admission_q2
+  - viteee_msc_data_science_admission_q3
+  - viteee_msc_data_science_admission_q4
+
+  ########  msc-data-science-courses   ########
+  - viteee_msc_data_science_courses_q1
+  - viteee_msc_data_science_courses_q2
+
+  ########  msc-data-science-finances   ########
+  - viteee_msc_data_science_finances_q1
+  - viteee_msc_data_science_finances_q2
+
+  ########  msc-data-science-careers   ########
+  - viteee_msc_data_science_careers_q1
+  - viteee_msc_data_science_careers_q2
+
+  ########  law   ########
+  - viteee_Law_q1
+  - viteee_Law_q2
+  - viteee_Law_q3
+  - viteee_Law_q4
+  - viteee_Law_q5
+  - viteee_Law_q6
+  - viteee_Law_q7
+  - viteee_Law_q8
+
+  ########  bsc   ########
+  - viteee_Bsc_gen_q1
+  - viteee_Bsc_gen_q2
+  - viteee_Bsc_gen_q3
+  - viteee_Bsc_gen_q4
+  - viteee_Bsc_info_q1
+  - viteee_Bsc_info_q2
+  - viteee_Bsc_eli_q1
+  - viteee_Bsc_eli_q2
+  - viteee_Bsc_eli_q3
+  - viteee_Bsc_eli_q4
+  - viteee_Bsc_eli_q5
+  - viteee_Bsc_eli_q6
+  - viteee_Bsc_eli_q7
+  - viteee_Bsc_cho_q1
+  - viteee_Bsc_cho_q2
+  - viteee_Bsc_fin_q1
+  - viteee_Bsc_fin_q2
+  - viteee_Bsc_car_q1
+  - viteee_Bsc_car_q2
+
+  ########  UPSC   ########
+  - viteee_upsc_q1
+  - viteee_upsc_q2
+  - viteee_upsc_q3
+  - viteee_upsc_q4
+  - viteee_upsc_q5
+  - viteee_upsc_q6
+  - viteee_upsc_q7
+  - viteee_upsc_q8
+  - viteee_upsc_q9
+  - viteee_upsc_q10
+  - viteee_upsc_q11
+  - viteee_upsc_q12
+  - viteee_upsc_q13
+  - viteee_upsc_q14
+
+
+responses:
+  utter_greet:
+  - text: "Hey there! How can I help you?"
+  utter_iamabot:
+  - text: "I was developed by VIT-AP UNIVERSITY"
+  utter_goodbye:
+  - text: "Bye"
+  utter_aboutbot:
+  - text: "I am VITEEE Assist Bot developed by VIT-AP UNIVERSITY"
+
+#################################################################################################################
+
+#####################   viteee-faq-general    #################
+
+  utter_viteee_faq_general_q1:
+  - text: "The link to apply for the B.Tech programmes (General category) https://viteee.vit.ac.in/ is available on the website vit.ac.in"
+  
+  utter_viteee_faq_general_q2:
+  - text: "All Engineering branches have an equally good scope. Much depends on your passion for the program and your endeavour to excel."
+
+  utter_viteee_faq_general_q3:
+  - text: "'Yes'. They are eligible to apply for VITEEE and should produce their marks sheet at the time of counselling / admission."
+  
+  utter_viteee_faq_general_q4:
+  - text: "Online application - https://viteee.vit.ac.in/ - Rs. 1350/-."
+
+  utter_viteee_faq_general_q5:
+  - text: "Please follow the link https://vit.ac.in/admission/ug/fee-structure"
+  
+  utter_viteee_faq_general_q6:
+  - text: "Under VIT Group there are: VIT Vellore, VIT Chennai, VIT AP and VIT Bhopal. The first two come under Deemed to be University and VIT-AP and VIT-Bhopal are state private Universities."
+
+  utter_viteee_faq_general_q7:
+  - text: At the time of counselling you would be offered the option of choosing your campus and a program. This would depend on the availability of the campus as per your rank in the order of merit."
+  
+  utter_viteee_faq_general_q8:
+  - text: "Applications will be issued till end of 31st March, 2023"
+
+#################################################################################################################
+
+#####################   viteee-faq-admission    #################
+
+  utter_viteee_faq_admission_q1:
+  - text: "There is no Management Quota in VIT. Admissions is purely based on the merit rank obtained in the VITEEE and for other Undergraduate programs, it is based on the merit of your XII/ Higher Secondary Boards by which you would be accordingly ranked."
+  
+  utter_viteee_faq_admission_q2:
+  - text: "'No'. There is no lateral entry admission offered for B.Tech and UG Programmes. Diploma holders (10+3) are eligible for B.Sc. Multimedia and Animation, Visual Communication, Fashion Designing (Chennai) with an overall aggregate of 60%."
+
+#################################################################################################################
+
+#####################   viteee-faq-related    #################
+
+  utter_viteee_faq_related_q1:
+  - text: "'Yes' VITEEE is mandatory for admission to the B.Tech. Programme in VIT. Higher Secondary Board, JEE Main/ SAT scores will not be considered for admission to the B.Tech. Degree Programme."
+  
+  utter_viteee_faq_related_q2:
+  - text: "Please visit the https://viteee.vit.ac.in/ link for the syllabus.The questions (MCQ) will primarily be from the State Board of Higher Secondary Education and the CBSE syllabus. Math's or Biology (40 questions), Physics (35 questions), Chemistry (35 questions), Aptitude (10 questions) and English (5 questions) in two and half examination without negative marking."
+  
+  utter_viteee_faq_related_q3:
+  - text: "VIT Engineering Entrance Examination will be conducted between 17th April to 22th April 2023  CBT - Computer based test.The duration of the Entrance Examination will be of 2 hours and 30 minutes.The details on the sessions and timings would be intimated before slot booking."
+
+  utter_viteee_faq_related_q4:
+  - text: "VITEEE is most likely to be held as scheduled. Candidates ranked through merit of VITEEE could attend counselling but produce their XII Mark sheet later to qualify for admission."
+
+  utter_viteee_faq_related_q5:
+  - text: "It is most unlikely that a change could be accommodated, once allotted. There is no Sliding/ up gradation in category / change of campus option offered further to admission."
+  
+  utter_viteee_faq_related_q6:
+  - text: "You could produce either your Aadhaar card / Driving license / PAN card / Passport / Voter ID card or else School ID card as original."
+
+  utter_viteee_faq_related_q7:
+  - text: "'Yes'. Once you complete the application form, you will be able to edit your application. (After making the payment and uploading your photo & Signature)"
+  
+  utter_viteee_faq_related_q8:
+  - text: "You will find the 'Edit' option on the left side of the screen at the application - download stage. (You would be able to edit all fields inclusive of test city and uploaded documents)."
+
+  utter_viteee_faq_related_q9:
+  - text: "'PIN code' has been integrated in our Software / Kindly mail (ugadmission@vit.ac.in)"
+
+#################################################################################################################
+
+#####################   viteee-faq-eligibility-related    #################
+
+  utter_viteee_faq_eligibility_related_q1:
+  - text: "'No'. You should satisfy the eligibility criteria of obtaining a minimum aggregate of 60% in PCM /PCB for the B.Tech. Programme"
+  
+  utter_viteee_faq_eligibility_related_q2:
+  - text: "'Yes'. Candidates whose date of birth falls on or after 1st July 2000 are only eligible to apply for VITEEE - 2023."
+  
+  utter_viteee_faq_eligibility_related_q3:
+  - text: "NRI (Non Resident Indian)"
+
+  utter_viteee_faq_eligibility_related_q4:
+  - text: "If you have opted for Physics, Chemistry and Biology in the qualifying examination, you would be eligible only for 1. B.Tech Bio-Engineering 2.B.Tech Biotechnology 3. B.Tech Computer Science and Engineering with specialization in Bioinformatics, 4. B.Tech Computer Science and Engineering (Specialization in Health Informatics).However you would be required to register for Mathematics as bridge course, which is mandatory."
+
+#################################################################################################################
+
+#####################   viteee-faq-ranking-related    #################
+
+  utter_viteee_faq_ranking_related_q1:
+  - text: "Admissions for B.Tech Branches are based on the merit rank from VITEEE and therefore it differs from year to year. It is only after you are ranked from the VITEEE and attend counselling that you may tentatively guess the rank range required for a particular branch. Higher the rank higher the chances to get your desirable course."
+  
+  utter_viteee_faq_ranking_related_q2:
+  - text: "VITEEE, like other competitive exams, requires proper strategy combined with excellent accuracy and speed. Although there is no negative marking like in other competitive examinations, you still need to have clear concepts and develop effective time-management strategies. Some preparation strategies that you can create are:
+
+1.	Time Management: For VITEEE exam, it is not necessary to solve all questions, but it is about solving decent number of questions in a proper time frame. If you are not able to solve any question, then please do not waste your time on it and move on to the next one. Also, it is advisable to attempt the easy questions first and gradually move towards attempting the difficult ones.
+2.	Develop Speed & Accuracy: Try to develop your own strategies to crack the exam. Enhance your analytical skills and aim to attempt all the questions while practicing. This will give you an edge over the other students.
+3.	Have Clear Concepts: Try to clear all your confusion on time, as it is important for you to have a strong foundation to solve all levels of questions. The more you practice, the easier it becomes for you to fine-tune your concepts. Apart from solving old VITEEE papers, you can also solve the NCERT books for classes 11 and 12.
+4.	Prepare Notes: It is advisable to prepare notes on the tips that you receive for the VITEEE exam. This will help you a lot during last minute revision, and the information might be handy for you, as you don't have to look through your books again and again.
+5.	Revision: Guess this is self-explanatory. You need to keep revising every few days to ensure the subject matter gets stored in your memory permanently
+"
+  
+  utter_viteee_faq_ranking_related_q3:
+  - text: "Mock test will be scheduled after slot booking."
+
+  utter_viteee_faq_ranking_related_q4:
+  - text: "If you have opted for Physics, Chemistry and Biology in the qualifying examination, you would be eligible only for 1. B.Tech Bio-Engineering 2.B.Tech Biotechnology 3. B.Tech Computer Science and Engineering with specialization in Bioinformatics, 4. B.Tech Computer Science and Engineering (Specialization in Health Informatics).However you would be required to register for Mathematics as bridge course, which is mandatory."
+
+#################################################################################################################
+
+#####################   viteee-faq-transaction-related    #################
+
+  utter_viteee_faq_transaction_related_q1:
+  - text: "Please read this important instruction related to payment issues given below and also in the VITEEE page.
+- At the time of transaction, the amount is debited, kindly wait for an hour in the same login page.
+- If Amount debited more than one time, it will be refunded to your account in 5 to 7 days.
+"
+  
+  utter_viteee_faq_transaction_related_q2:
+  - text: "'Yes'. If the amount towards the VITEEE application form has been paid twice for the same application, the excess amount paid will be refunded to your account within 7 working days."
+  
+  utter_viteee_faq_transaction_related_q3:
+  - text: "You will be receiving within 5-7 working days; it's depending on the source through which the transaction was made. If not, you can connect with ugadmission@vit.ac.in / 0416 220 2020."
+
+  utter_viteee_faq_transaction_related_q4:
+  - text: "Please visit the link https://vit.ac.in/testcities"
+
+#################################################################################################################
+
+#####################   viteee-faq-transaction-related    #################
+
+  utter_viteee_faq_slot_booking_q1:
+  - text: "After the slot booking, you would be able to download the admit card."
+  
+  utter_viteee_faq_slot_booking_q2:
+  - text: "Slot booking refers to you choosing your venue, date and time for the VITEEE at your desired test city. VIT University starts the online VITEEE Slot Booking at VIT's Online Test Booking System (OTBS). The candidates have to use their VITEEE 2022 application number and password to enter the VIT OTBS. The slot booking is done in the first come first serve basis. After the VITEEE 2022 Slot booking the candidates can check their admit card that is generated just after. The candidates have to download the same and complete the process."
+  
+  utter_viteee_faq_slot_booking_q3:
+  - text: "A slot once booked cannot be changed."
+
+  utter_viteee_faq_slot_booking_q4:
+  - text: "'Yes' Can be changed till the application close for VITEEE 2022. 
+        ●	Change of test city from abroad to India - No extra payment.
+        ●	Change of test city from India to abroad - $50 Extra payment (OR equivalent INR)."
+
+  utter_viteee_faq_slot_booking_q5:
+  - text: "It is the responsibility of the candidates to book their test schedule in OTBS within the given time frame. The Institute will not be held accountable for the non-bookings. The application fee will not be refunded under any circumstances for such cases."
+
+  utter_viteee_faq_slot_booking_q6:
+  - text: "Admissions to various B.Tech Branches are based on the merit rank from VITEEE and therefore differ from year to year. It is only after you are ranked from the VITEEE and attends counselling that you could briefly estimate the rank range required for a particular branch. Do not believe any social media sources as they might mislead you."
+
+#################################################################################################################
+
+#####################   viteee-faq-scholarship    #################
+
+  utter_viteee_faq_scholarship_q1:
+  - text: "'Yes' Can be changed till the application close for VITEEE 2022.
+                  Performance                            Scholarship
+        ●	Central and State Board Toppers -> 100% waiver on Tuition Fees (for all 4 years)
+        ● 1 to 50 Rank Holder in VITEEE   -> 75% waiver on Tuition Fees (for all 4 years)
+        ● 51 to 100 Rank Holder in VITEEE -> 50% waiver on Tuition Fees (for all 4 years)
+        ●	101 to 1000 Rank Holder in VITEEE -> 25% waiver on Tuition Fees (for all 4 years)"
+  
+  utter_viteee_faq_scholarship_q2:
+  - text: "STARS (Support the Advancement of Rural Students Scheme) helps students from under privileged backgrounds of Tamil Nadu/ Andhra Pradesh to achieve their dreams by giving them 100% fee waiver for their academic, hostel and basic medical expenses. Top boys and girls from Rural Government schools are shortlisted for the scheme."
+
+#################################################################################################################
+
+#####################   viteee-faq-hostel    #################
+
+  utter_viteee_faq_hostel_q1:
+  - text: "Please visit the link: https://vitap.ac.in/hostels/"
+  
+  utter_viteee_faq_hostel_q2:
+  - text: "Please visit the link:  https://vitap.ac.in/ hostel-and-mess-fee-structure/ "
+
+#################################################################################################################
+
+#####################   viteee-faq-academic    #################
+
+  utter_viteee_faq_academic_q1:
+  - text: "Please visit the link: https://vitap.ac.in/ you could mail admission@vitap.ac.in or contact: 0863-2370444"
+  
+  utter_viteee_faq_academic_q2:
+  - text: "Please find details of Undergraduate programs offered in VIT at the link: https://vitap.ac.in/admission/overview "
+  
+  utter_viteee_faq_academic_q3:
+  - text: "In a Fully Flexible Credit System (FFCS), a candidate has the complete freedom to select time table with the choices on the teacher, time. In addition, they may register less or more number of courses (subject to minimum / maximum criteria) to finish early and take more than 6 month project in final year."
+
+  utter_viteee_faq_academic_q4:
+  - text: "In an International Transfer program (ITP) - A student completes the first two years of his B.Tech Degree program in VIT and the next two years of his Degree at a partner university abroad. Call for ITP details 0863 2370444."
+
+  utter_viteee_faq_academic_q5:
+  - text: "In a Semester Abroad program (SAP) - the student is provided an opportunity to pursue the final Semester in a partner university abroad. (Contact:  asstdir.ir@vitap.ac.in  for more details)"
+
+  utter_viteee_faq_academic_q6:
+  - text: "Please refer to the link: https://vitap.ac.in/placement/career-development-centre/"
+
+#################################################################################################################
+
+#####################   viteee-faq-nri    #################
+
+  utter_viteee_faq_nri_q1:
+  - text: "Indian passport holders whose parents are employed abroad can apply for both NRI as well as VITEEE (separate application and admission procedures)."
+  
+  utter_viteee_faq_nri_q2:
+  - text: "PIO card holders can also apply for VITEEE but those holding only foreign passports are not eligible."
+  
+  utter_viteee_faq_nri_q3:
+  - text: "To know the admission procedure under NRI/ Foreign categories, kindly visit the below links.
+            https://vit.ac.in/admissions/international/btech-eligibilityandprocedure
+            https://vit.ac.in/admissions/international/fee
+"
+
+  utter_viteee_faq_nri_q4:
+  - text: "For details on NRI admissions : nriadmission@vit.ac.in."
+
+  utter_viteee_faq_nri_q5:
+  - text: "For details on Foreign admissions: global@vit.ac.in"
+
+#################################################################################################################
+
+#####################   viteee-B.Comm    #################
+
+
+  utter_viteee_BComm_q1:
+  - text: "To pursue a B.Com (Finance) course, colleges require applicants to have studied and cleared Mathematics along with  Economic and Commerce (MEC) or Business Studies in the qualifying exam with at least 60% of Marks."
+  
+  utter_viteee_BComm_q2:
+  - text: "The minimum eligibility criteria for B.Com (Finance)  course in VIT-AP University is to have cleared and qualified the class 12 board examination from a recognised board of education, such as CBSE, ICSE, State Education Boards or equivalent boards. For the second part of the question, as answered in the previous question, Mathematics is necessary for admissions to  the B.Com (Finance) course in VIT-AP University. Mathematics along with Economic and Commerce (MEC) or Business Studies in the qualifying exam with at least 60% of Marks."
+  
+  utter_viteee_BComm_q3:
+  - text: "B.Com (Finance), students will be able to specialise in different fields such as Finance and Accounting, Banking, Insurance, Taxation, etc. The in-depth education and academic curriculum provide the students with a wider range of knowledge and expertise in commerce and banking. You will be able to pass CA, CS, CMA or CFA very easily if you study B.Com (Finance).On the other hand, B.Com as a course trains and produces qualified commerce graduates, capable of carrying day-to-day processes of commerce and banking."
+ 
+  utter_viteee_BComm_q4:
+  - text: "Over the years, it has been a trend to see CA aspirants pursue B. Com (Finance) while also attempting to clear CA exams as well. At VIT-AP we will prepare you for CA-Foundation and CA-Inter as well while studying B. Com (Finance) at VIT-AP Campus."
+  
+  utter_viteee_BComm_q5:
+  - text: "The Following Subjects of CA Course will be covered while Pursuing B.Com (Finance): CA Subjects in CA Foundation Course or CPT (Common Proficiency Test): 1.  Fundamentals of Accounting 2.  Quantitative aptitude 3.  Mercantile Law 4.  General Economics 5.  General English; CA Subjects in Intermediate Course or IPCC (Integrated Professional Competence Course): 1.  Accounting 2.  Cost Accounting and Financial Management 3.  Advanced Accounting 4.  Taxation 5.  Auditing and Assurance 6.  Business Laws, Ethics and Communication 7.  Information Technology and Strategic Management 8.  Corporate and other Laws; CA Final Subjects: 1.  Advanced Auditing and Professional Ethics 2.  Financial Reporting 3.  Strategic Financial Management 4.  Strategic Cost Management and Performance Evaluation 5.  Corporate and Economic Laws 6.  Direct Tax Laws and International Taxation 7.  Indirect Tax Laws; There are also electives from which students can choose one: 1.  Risk Management 2.  International Taxation 3.  Economic Laws 4.  Financial Services and Capital Markets 5. Global Financial Reporting Standards 6.  Multidisciplinary Case Studies; CA Final Group 1 Subjects: 1. Financial Reporting 2.  Strategic Financial Management 3.  Advanced Auditing and Professional Ethics 4.  Corporate and Allied Laws; CA Final Group 2 Subjects: 1.  Advanced Management Accounting 2.  Information systems Control and Audit 3.  Direct Tax Laws 4.  Indirect Tax Laws; CA Final Subjects (Extracted from New Course Syllabus): 1.  Financial Reporting 2.  Strategic Financial Management 3.  Advanced Auditing and Professional Ethics 4.  Corporate and Economic Laws 5.  Strategic Cost Management and Performance Evaluation 6.  Direct Tax Laws and International Taxation 7.  Indirect Tax Laws"
+
+#################################################################################################################
+
+#####################   viteee-BBA-about   #################
+
+  utter_viteee_BBA_about_q1:
+  - text: "VIT-AP School of Business (VSB) builds on VIT’s long history of excellence in technical education with liberal arts and humanities, topped with best of the management courses, to offer a world class BBA (Bachelor of Business Administration) program. VSB believes that every manager should be strongly grounded in the fundamentals of management, thus, the BBA programme is designed to provide breadth and suitable depth with well-designed curriculum built on the liberal education foundation and exposure to engineering and technology. The BBA programme consists of courses designed in collaboration with industry experts and academicians from IIMs and international universities. Students can choose Business Analytics, Digital Marketing, Fintech or General Management as specialisation. As part of the specialisation, students will undergo practice oriented skill building courses leading to certifications in Business Analytics, Digital Marketing or Fintech. VSB has International Credit Transfer Agreements with University of Michigan, Dearborn, USA (UMD) and Arizona State University, USA (ASU) leading to BBA from UMD and BS Business Data Analytics from ASU."
+  utter_viteee_BBA_about_q2:
+  - text: "The school offers the following programmes- ●	BBA (Specialization in Business Analytics, Digital Marketing, Fintech, General Management) ●	BBA from University of Michigan, Dearborn (UMD), USA - 2 years at VSB + 2 years at UMD (Majors in Accounting, Digital Marketing, Finance, HRM, IS Management, Marketing and Supply Chain Management) ●	BS Business Analytics from Arizona State University (ASU), USA - 2 years at VSB + 2 years at ASU"
+  utter_viteee_BBA_about_q3:
+  - text: "A student joining BBA program in VSB can choose any of the following specialisations after the completion of first year: BBA with specialisation in Business Analytics, BBA with specialisation in Digital Marketing, BBA with specialisation in FinTech, BBA with specialisation in General Management"
+  utter_viteee_BBA_about_q4:
+  - text: "Business Analytics is a field that drives data-driven decisions-making in the businesses. It is the practical application of statistical techniques that focuses on providing actionable recommendations to the businesses based on data. It harnesses the power of information technology to process and analyse ever-increasing amounts of data available to businesses. Business Analytics as a field requires skills and competencies in the domains of business & management; mathematics & statistics, and IT & computer science."
+  utter_viteee_BBA_about_q5:
+  - text: "You should choose Business Analytics, if: *	You have a flare for numbers and data, *	You are comfortable with Mathematics and Statistics, *	You like working with Information Technology and have interest in the latest developments in Computer Science, *	You are comfortable working with latest tools and technologies available in the market, *	You like to do coding and programming in various programming languages."
+  utter_viteee_BBA_about_q6:
+  - text: "Liberal Arts Courses– Anthropology / Sociology, Psychology / Social Psychology, Theatre and Literature. Critical thinking – How to think. STEM Courses – Environmental Studies, Physics, Chemistry, Mathematics, Statistics, Python, Mechanical Workshop. Unique Courses – Ethics & Values, Systems Thinking & Dynamics and Design Thinking & Innovation. All BBA students will have the option of joining Discovering Self and Globalisation and Culture workshops (highly acclaimed courses from IIM Kozhikode). Other than these innovative workshops are planned every semester on culture, development, ecology, economy, gender, global issues, innovations, rural India, start-ups, technology, theatre and so on. Field work every year– Students will go on field work on variety of themes such as a. Cultures of India, b. Appreciating Rural India, c. Heritage and Current Social Reality, or d. Dynamics of Entrepreneurship."
+
+
+#################################################################################################################
+
+#####################   viteee-msc-physics  #################
+
+  utter_viteee_msc_physics_q1:
+  - text: "Students with a Bachelors degree with minimum 60 % marks in Physics as major subject."
+
+  utter_viteee_msc_physics_q2:
+  - text: "Fall semester (starting July/August) 2023"
+
+  utter_viteee_msc_physics_q3:
+  - text: "2 years (4 semesters)"
+
+  utter_viteee_msc_physics_q4:
+  - text: "The M.Sc. Physics programme includes a final semester project work within the department. Also, there is an interim Science, Engineering and Technology project that students could engage in."
+
+  utter_viteee_msc_physics_q5:
+  - text: "There are specializations offered in various subjects, having relevance in frontline industry and research."
+
+  utter_viteee_msc_physics_q6:
+  - text: "There are multiple career opportunities upon completion of degree.They are categorized below: 1. Research positions Degree holders could get into Ph.D. programmes at national and international institutes or Universities.Research scientist positions are also available for M.Sc. Physics graduates in premier organizations such as BARC, ISRO and DRDO, and other organizations in the Research & Development sectors.2. Teaching positionsDegree holders are eligible to be appointed as lecturers in colleges all across India.3. In industryDegree holders could get into electronics, instrumentation, materials and manufacturing industry depending on their specialization. They could also join in as scientific assistants in forensic laboratories, and scientific advisors in various organizations."
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-application    #################
+
+  utter_viteee_msc_chemistry_application_q1:
+  - text: "A pass in BSc, with Chemistry as one of the subjects and with an overall pass percentage of 50% marks."
+
+  utter_viteee_msc_chemistry_application_q2:
+  - text: "Yes. A candidate who passed BSc degree OR studying in the final semester, with Chemistry as one of the subjects and with an overall pass percentage of 50% marks."
+
+  utter_viteee_msc_chemistry_application_q3:
+  - text: "Our VIT-AP University offers PG level programmes at present in various science disciplines (Maths, Physics and Chemistry) You can select based on your area of interest."
+
+  utter_viteee_msc_chemistry_application_q4:
+  - text: "The application process will be in online mode. Please refer regularly our website (www.vitap.ac.in) for application process details and updates, if any."
+
+  utter_viteee_msc_chemistry_application_q5:
+  - text: "(Our Admission Office contact numbers may be provided here)."
+
+  utter_viteee_msc_chemistry_application_q6:
+  - text: "By online mode as per the format given. (Submitting in person may also be considered by Admission Office)."
+
+  utter_viteee_msc_chemistry_application_q7:
+  - text: "Fill your application in the given format and also attach the required documents as requested in the application form."
+
+  utter_viteee_msc_chemistry_application_q8:
+  - text: "(At present, NO entrance exam by VIT-AP University. Admission Office may provide correct information)."
+
+  utter_viteee_msc_chemistry_application_q9:
+  - text: "Yes. A candidate studying in the final semester of BSc degree, with Chemistry as one of the subjects can apply."
+
+  utter_viteee_msc_chemistry_application_q10:
+  - text: "For applying, a transcript is not required. During counselling process, you need to submit all the transcripts."
+
+  utter_viteee_msc_chemistry_application_q11:
+  - text: "You can check by logging into the VIT-AP University website with your application username and password."
+
+  utter_viteee_msc_chemistry_application_q12:
+  - text: "You can check by logging into the VIT-AP University website with your application username and password."
+
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-fee    #################
+
+  utter_viteee_msc_chemistry_fee_q1:
+  - text: "(Depends. Day scholar or Hosteller. Admission Office may provide correct answer)"
+
+  utter_viteee_msc_chemistry_fee_q2:
+  - text: "Once you got selected, you can apply for hostel accommodation by online mode."
+
+  utter_viteee_msc_chemistry_fee_q3:
+  - text: "Kindly refer our VIT-AP University website."
+
+  utter_viteee_msc_chemistry_fee_q4:
+  - text: "At present full-time programmes only offered."
+
+  utter_viteee_msc_chemistry_fee_q5:
+  - text: "You are most welcome to contact our Admission Office and you will be guided accordingly."
+
+  utter_viteee_msc_chemistry_fee_q6:
+  - text: "For higher studies such as PhD in reputed institutions and also job opportunities in many industries."
+
+  utter_viteee_msc_chemistry_fee_q7:
+  - text: "Yes. The PG programme is structured in such a way for having good chances to get admissions in reputed institutions."
+
+  utter_viteee_msc_chemistry_fee_q8:
+  - text: "You can apply for PhD admission in VIT-AP University."
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-general-info   #################
+
+  utter_viteee_msc_data_science_general_info_q1:
+  - text: "Yes, VIT-AP provides highly secure and well-guarded hostel facility separately for boys and girls. For more details visit https://vitap.ac.in/hostels/"
+
+  utter_viteee_msc_data_science_general_info_q2:
+  - text: "Yes, VIT-AP provides bus transportation facility for the day scholar students. The buses are safe, secure, and driven by responsible personnel. Day scholars can avail the bus facility from Vijayawada, Guntur, and Tenali. For more details visit https://vitap.ac.in/transport/"
+
+  utter_viteee_msc_data_science_general_info_q3:
+  - text: "Yes, you are welcome to visit the University to get to know more about the program and the University."
+
+  utter_viteee_msc_data_science_general_info_q4:
+  - text: "Refer the School website: http://vitap.ac.in/school-of-advanced-sciences/"
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-program-info   #################
+
+  utter_viteee_msc_data_science_program_info_q1:
+  - text: "Data Science is a multi- disciplinary field that uses scientific methods, processes, algorithms to produce knowledge & insights from structured & unstructured data. It utilises techniques & theories derived from many fields such as computer science, mathematics, statistics & information science to process and analyse large amount of data, and to present the results to reveal patterns and enable stakeholders to draw informed conclusions. "
+
+  utter_viteee_msc_data_science_program_info_q2:
+  - text: "The technological advances used to be mostly driven by improved hardware that increased processing power, but also impelled physical limitations, therefore, the focus has now been shifting to software-driven applications. Data, the oil of the digital economy as it is called, is expected fuel our future. With the increase of computing power and digital storage come many new possibilities that - just ten to fifteen years ago - were beyond our imagination. Such new developments led to an increased demand for Data Scientist not just in IT sector but also in sectors such as banking and finance, automotive, energy, healthcare, transport, retail, and virtually every domain you can think of. Data has already started driving business decisions - from small regional offices to the boardroom – and hence graduates from study programmes in Data Science will be directly involved in important strategic decision-making processes. The program is designed to create knowledge pool that can address the ever-growing demand and challenges for experts in this field."
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-admission   #################
+
+  utter_viteee_msc_data_science_admission_q1:
+  - text: "Undergraduate degree in Mathematics/Statistics/Computer Science/Computer Applications/Data Science or UG Degree in Engineering or Technology in CSE/IT/ECE/EEE/E&I with a 60% of marks (Inclusive of all subjects)."
+
+  utter_viteee_msc_data_science_admission_q2:
+  - text: "The admission process has already started, for more details contact The Admissions Office, or refer https://vitap.ac.in/contact-us/"
+
+  utter_viteee_msc_data_science_admission_q3:
+  - text: "You may contact the VIT-AP University Admissions Office."
+
+  utter_viteee_msc_data_science_admission_q4:
+  - text: "The M. Sc Data Science program uses the online application for the VIT-AP University. Please refer to the University Website. "
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-courses   #################
+
+  utter_viteee_msc_data_science_courses_q1:
+  - text: "courses"
+
+  utter_viteee_msc_data_science_courses_q2:
+  - text: "The curriculum has scope for all the advanced teaching-learning methodologies such as application-oriented and project-based learning and industry internships. "
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-finances   #################
+
+  utter_viteee_msc_data_science_finances_q1:
+  - text: "Contact Admissions Office, VIT-AP University."
+
+  utter_viteee_msc_data_science_finances_q2:
+  - text: "VIT-AP University provides scholarships for meritorious students based on assessment."
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-careers  #################
+
+  utter_viteee_msc_data_science_careers_q1:
+  - text: "This Inter-disciplinary program brings together a lot of skills required by Data Scientists with adequate domain knowledge to help any organization find ways to take major business decisions, reduce costs, get into new markets, launch a new product or service, find the sentiment of the customers, so on. The following industries/sectors would be the expected employers.
+    ●	IT industries
+    ●	Research institutions 
+    ●	Banking sector
+    ●	Consulting firms
+    ●	Pharmaceutical companies
+    ●	Automobile industries and 
+    ●	Finance
+    ●	Educational sector"
+
+  utter_viteee_msc_data_science_careers_q2:
+  - text: "VIT Provides centralized campus placements throughout all the VIT Campuses. "
+
+#################################################################################################################
+
+#####################   viteee-Law    #################
+
+
+  utter_viteee_Law_q1:
+  - text: "The campus is located at Inavolu, Amaravathi which is about 2 kms from the Secretariat of Andhra Pradesh. Yes, VIT-AP University at Amaravati is a private university established in 2017 by the Andhra Pradesh Private University Act of 2016. It is recognised and approved by the University Grants Commission (UGC)."
+  
+  utter_viteee_Law_q2:
+  - text: "The course curriculum is interdisciplinary and is designed to make students industry ready and  cater to the needs of global legal fraternity. The curriculum is carefully designed in consultation with the industry experts and renowned academics in the legal field.  BBA and LL. B (Hons) give opportunities to the students to opt for the legal subjects which are of contemporary relevance. Students can choose subjects from the wide range of core, honours, optional, electives and seminar courses. Each course is designed to have a research focus."
+  
+  utter_viteee_Law_q3:
+  - text: "At VSL, BBA., LL. B (Hons) and B.A., LL. B (Hons) Courses are available and a full time three years course ie., Ph.D. in Law. Yes, VIT-AP University School of Law (VSL) is recognised by the Bar Council of India (BCI) in 2019"
+
+  utter_viteee_Law_q4:
+  - text: "VSL possess faculties with international exposure and repute. They have expertise in a wide variety of subjects from which students can be benefited."
+  utter_viteee_Law_q5:
+  - text: "Admissions are as per the norms of the Bar Council of India (BCI). Students must have completed the 10+2 or Intermediate or PUC or equivalent examination from any recognised board. Students will be admitted based on VSLAT (GD / PI). LSAT/ CLAT score will also be taken into consideration for admission."
+  utter_viteee_Law_q6:
+  - text: "Yes, the courses mentioned are part of the residential program and students are expected to stay in the campus. However, in special circumstances students may be permitted to commute from their homes, if students are from within the travel distance."
+  utter_viteee_Law_q7:
+  - text: "VIT-AP University provides residential accommodation keeping in mind the comfort of the students. As per the budget requirements, they can choose the accommodation."
+  utter_viteee_Law_q8:
+  - text: "Yes, the university may assist students in getting internships and placements at reputed legal firms in India and abroad with the office of the Senior Advocates at High Courts and Supreme Court, Research Organisations, NGOs, Media Houses and international and national organisations. A qualified and designated person will guide students in the internship and placement processes."
+
+#################################################################################################################
+
+#####################   viteee-Bsc-gen    #################
+
+  utter_viteee_Bsc_gen_q1:
+  - text: "Yes, VIT-AP provides highly secure and well-guarded hostel facility separately for boys and girls. For more details visit https://vitap.ac.in/hostels/"
+  utter_viteee_Bsc_gen_q2:
+  - text: "Yes, VIT-AP provides bus transportation facility for the day scholar students. The buses are safe, secure, and driven by responsible personnel. Day scholars can avail the bus facility from Vijayawada, Guntur, and Tenali. For more details visit https://vitap.ac.in/transport/"
+  utter_viteee_Bsc_gen_q3:
+  - text: "Yes, you are welcome to visit the University to get to know more about the program and the University."
+  utter_viteee_Bsc_gen_q4:
+  - text: "Refer the School website: http://vitap.ac.in/school-of-advanced-sciences/"
+
+#################################################################################################################
+
+#####################   viteee-Bsc-info    #################
+
+  utter_viteee_Bsc_info_q1:
+  - text: "Data Science is a multi- disciplinary field that uses scientific methods, processes, algorithms to produce knowledge & insights from structured & unstructured data. It utilises techniques & theories derived from many fields such as computer science, mathematics, statistics & information science to process and analyse large amount of data, and to present the results to reveal patterns and enable stakeholders to draw informed conclusions."
+  utter_viteee_Bsc_info_q2:
+  - text: "The technological advances used to be mostly driven by improved hardware that increased processing power, but also impelled physical limitations, therefore, the focus has now been shifting to software-driven applications. Data, the oil of the digital economy as it is called, is expected fuel our future. With the increase of computing power and digital storage come many new possibilities that - just ten to fifteen years ago - were beyond our imagination. Such new developments led to an increased demand for Data Scientist not just in IT sector but also in sectors such as banking and finance, automotive, energy, healthcare, transport, retail, and virtually every domain you can think of. Data has already started driving business decisions - from small regional offices to the boardroom – and hence graduates from study programmes in Data Science will be directly involved in important strategic decision-making processes. The program is designed to create knowledge pool that can address the ever-growing demand and challenges for experts in this field."
+
+
+#################################################################################################################
+
+#####################   viteee-Bsc-eligibility    #################
+
+  utter_viteee_Bsc_eli_q1:
+  - text: "First Class with a minimum of 60% marks at 10+2 level /Intermediate/CBSE/ICSE/HSC/ or equivalent with Mathematics /Statistics /Computer Science/Business Mathematics as one of the subjects. • Age Limit: Date of Birth falls on or after 01.07.2000 (or any date based on the UG admission age limit)"
+  utter_viteee_Bsc_eli_q2:
+  - text: "Having studied Mathematics at Intermediate/10+2 level is essential prerequisite for joining this program."
+  utter_viteee_Bsc_eli_q3:
+  - text: "After 3 years of successful completion of this programme the B.Sc. degree in Data Science will be awarded irrespective of the students taking the exit option or not and on continuation with masters’ level study M.Sc. degree in Data Science will be awarded after successful completion of another 2 years."
+  utter_viteee_Bsc_eli_q4:
+  - text: "After 3 years of successful completion of this programme, if a student gets a campus placement or he gets admission in masters at a partner university, or for some other reasons, if he wants to exit the program, he can do so with a B.Sc. degree in Data Science."  
+  utter_viteee_Bsc_eli_q5:
+  - text: "The admission process has already started, for more details contact The Admissions Office, or refer https://vitap.ac.in/contact-us/"
+  utter_viteee_Bsc_eli_q6:
+  - text: "You may contact the VIT-AP University Admissions Office."
+  utter_viteee_Bsc_eli_q7:
+  - text: "The B Sc.& M. Sc Data Science program uses the online application for the VIT-AP University. Please refer to the University Website."
+
+#################################################################################################################
+
+#####################   viteee-Bsc-choosing    #################
+
+  utter_viteee_Bsc_cho_q1:
+  - text: "The curriculum is designed in such a way that graduating students will be industry ready. The study of data science is constituted with the knowledge of mathematics, statistics, and computer science. The proposed program specialization will help students acquire the knowledge about industry relevant skills on Mathematical modeling, statistical modeling, data science concepts, machine learning principles and algorithms and visualization techniques."
+  utter_viteee_Bsc_cho_q2:
+  - text: "The curriculum has scope for all the advanced teaching-learning methodologies such as application-oriented and project-based learning and industry internships."
+
+#################################################################################################################
+
+#####################   viteee-Bsc-finance    #################
+
+  utter_viteee_Bsc_fin_q1:
+  - text: "Contact Admissions Office, VIT-AP University."
+  utter_viteee_Bsc_fin_q2:
+  - text: "VIT-AP University provides scholarships for meritorious students based on assessment."
+
+#################################################################################################################
+
+#####################   viteee-Bsc-career    #################
+
+  utter_viteee_Bsc_car_q1:
+  - text: "This Inter-disciplinary program brings together a lot of skills required by Data Scientists with adequate domain knowledge to help any organization find ways to take major business decisions, reduce costs, get into new markets, launch a new product or service, find the sentiment of the customers, so on. The following industries/sectors would be the expected employers. ●	IT industries ●	Research institutions ●	Banking sector ●	Consulting firms ●	Pharmaceutical companies ●	Automobile industries and ●	Finance ●	Educational sector"
+  utter_viteee_Bsc_car_q2:
+  - text: "VIT Provides centralized campus placements throughout all the VIT Campuses."
+
+#################################################################################################################
+
+#####################   viteee-upsc    ################# 
+
+  utter_viteee_upsc_q1:
+  - text: "The duration of the course is 5 years, but there is an exit option after successful completion of 3 years with BA- Public Services degree."
+  
+  utter_viteee_upsc_q2:
+  - text: "You can appear for the UPSC exams either after the successful completion of BA [6 semesters] or MA [10 semesters].UPSC exams can be attempted at the age of 21."
+  
+  utter_viteee_upsc_q3:
+  - text: "Multiple attempts are possible for the UPSC exams. In case, if you are not able to clear the UPSC exams, competitive exams like PSC, APSSC, Banks, Academics, Corporates etc, can be written with the help of the knowledge acquired from this course."
+
+  utter_viteee_upsc_q4:
+  - text: "After successful completion of the programme, students can go abroad, for studies on International relations, Public Services, or subject specializations like, Economics, Political Science or development studies."
+
+  utter_viteee_upsc_q5:
+  - text: "Yes. The students are given training so that they are ready for any of the public services domain."
+  
+  utter_viteee_upsc_q6:
+  - text: "History , Economics, Political Science, Geography, Sociology, Anthropology, Psychology."
+
+  utter_viteee_upsc_q7:
+  - text: "Yes. Any full-time degree. However, one needs to undergo the BA and MA Public Services Programme."
+  
+  utter_viteee_upsc_q8:
+  - text: "A Masters degree and the training to compete in the UPSC examinations."
+
+  utter_viteee_upsc_q9:
+  - text: "Yes, if it is within the duration of 5 years of the degree."
+
+  utter_viteee_upsc_q10:
+  - text: "Yes, study materials will be provided by the trainers at no extra cost."
+
+  utter_viteee_upsc_q11:
+  - text: "Yes. As the trainers are IAS and other professionals who have cleared UPSC, a nominal fee has to be paid for the training."
+  
+  utter_viteee_upsc_q12:
+  - text: "Yes. Throughout the program, people who are well known in the UPSC training industry, senior bureaucrats, and those who have recently cleared the UPSC exams, will meet the students and provide first hand information regarding UPSC examinations."
+
+  utter_viteee_upsc_q13:
+  - text: "The BA, MA Programme has subjects that are relevant for the UPSC exams and therefore a foundation is built for the examinations. The trainers are best in the industry and therefore, this programme offers not just training but also a degree that will be helpful for future academic pursuit."
+  
+  utter_viteee_upsc_q14:
+  - text: "The exams for the BA – MA Degree will be at par with any other examinations of VIT-AP University which is recognised by the UGC. For attempting UPSC examinations, one needs to follow the UPSC guidelines."
+  
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
