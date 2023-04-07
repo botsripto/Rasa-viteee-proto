@@ -1,0 +1,1564 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: aboutbot
+  examples: |
+    - who created you
+    - who are you
+    - what are you
+    - what is your name
+    - may i know who are you
+    - name of you
+    - developer of you
+    - who developed you
+    - what are made of off
+    - who developed you
+    - developer of you
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
+#################################################################################################################
+
+#####################   viteee-faq    #################
+
+
+#################################################################################################################
+
+#####################   viteee-faq-general    #################
+- intent: viteee_faq_general_q1
+  examples: |
+    - Where can I find the link to apply for the B.Tech Degree program, through the general category?
+    - Can you please provide me with the link to apply for the B.Tech Degree program under the general category?
+    - I'm interested in B.Tech through general category, can you guide me to the application link?
+    - Could you help me find the link to apply for B.Tech as a general candidate?
+    - Please direct me to the website to apply for B.Tech under general category.
+    - I want to apply for B.Tech as a general candidate, where can I find the application link?
+    - Where's the application link for B.Tech under general category?
+    - application link
+    - viteee application link
+    - exam application link
+
+- intent: viteee_faq_general_q2
+  examples: |
+    - Which branch in Engineering would have the best scope?
+    - Which engineering branch has the best scope?
+    - What's the best engineering field in terms of scope?
+    - Suggest an engineering branch with high job opportunities.
+    - What's the most promising field of engineering to study if I want good job prospects?
+    - Which engineering discipline has the best job prospects?
+    - Which branch of engineering has the best career opportunities?
+    - Best branch
+    - best branch in vitap
+
+- intent: viteee_faq_general_q3
+  examples: |
+    - Are candidates appearing for Improvement/Privately also eligible to apply for VITEEE?
+    - Can Improvement/Privately appearing candidates apply for VITEEE?
+    - Are students giving Improvement/Privately exams eligible for VITEEE?
+    - Is it possible for Improvement/Privately appearing students to apply for VITEEE?
+    - I am appearing for Improvement/Privately exams, can I still apply for VITEEE?
+    - Are candidates who are taking Improvement/Privately exams allowed to apply for VITEEE?
+    - Are Improvement/Privately appearing students eligible for VITEEE?
+
+- intent: viteee_faq_general_q4
+  examples: |
+    - What is the cost of the VITEEE Application form?
+    - How much does the VITEEE Application form cost?
+    - What is the fee for the VITEEE Application form?
+    - VITEEE Application form fee?
+    - VITEEE Application form cost?
+    - What is the fee for the VITEEE Application form?
+    - Could you inform me about the cost of the VITEEE Application form?
+    - viteee fee?
+    - viteee exam fee
+
+- intent: viteee_faq_general_q5
+  examples: |
+    - Where can I find the fee structure for various programmes?
+    - Could you direct me to the fee structure for different programs?
+    - Is there a website where I can view the fee structure for various programmes?
+    - Fee structure for various programmes?
+    - How to find fee structure for various programmes?
+    - Where can I check the fee structure for different programmes?
+    - I am looking for the fee structure for various programmes. Where can I find it?
+    - vit fee
+    - courses fee
+    - vitap fee
+    - vit college fee structure
+    - vit college fees
+
+- intent: viteee_faq_general_q6
+  examples: |
+    - How many campuses does VIT have?
+    - What is the total number of campuses of VIT?
+    - Number of VIT campuses?
+    - I am curious to know the number of campuses owned by VIT. Could you help me with that?
+    - Count of VIT campuses?
+    - How many campuses are there for VIT?
+    - Can you tell me the count of campuses that VIT possesses?
+    - all vit campuses
+    - vit campuses
+    - branches of vit
+    - locations of vit
+
+- intent: viteee_faq_general_q7
+  examples: |
+    - Will I be offered the option of choosing my campus and program while filling application?
+    - Is it possible to choose my program and campus while filling the application?
+    - Will I get an opportunity to select my program and campus during the application process?
+    - Is campus and program selection available in VIT application form?
+    - Program and campus preference in VIT application?
+    - During the application, will I be able to select my preferred program and campus?
+    - Choosing program and campus in VIT application?
+    - can i choose which branch i wanna join
+    - 
+
+- intent: viteee_faq_general_q8
+  examples: |
+    - What is the closing date for issue of applications?
+    - Application issue closing date?
+    - By when should I apply for the VITEEE?
+    - Can you tell me the deadline for issuing applications?
+    - What's the last date for VITEEE application issue?
+    - Final date for issuing VITEEE applications?
+    - VITEEE application deadline?
+    - VITEE LAST DATE FOR APPLICATION
+    - deadline of vitee exam
+
+
+#################################################################################################################
+
+#####################   viteee-faq-admission    #################
+
+- intent: viteee_faq_admission_q1
+  examples: |
+    - Does VIT offer admissions through Management quota?
+    - Is there a provision for Management quota admissions at VIT?
+    - Is there a Management quota in VIT admissions?
+    - VIT Management quota provision?
+    - VIT Management seats for admissions?
+    - Can I get admission to VIT through the Management quota?
+    - Does VIT have Management quota seats?
+    - management quote in vitap
+
+
+- intent: viteee_faq_admission_q2
+  examples: |
+    - Is there lateral entry admission available for Diploma candidates?
+    - Does VIT have lateral entry for Diploma holders?
+    - VIT admission through lateral entry for Diploma holders?
+    - Are there any lateral entry admission options available at VIT for Diploma candidates?
+    - Can Diploma candidates get lateral entry admission to VIT?
+    - Diploma candidates' lateral entry admission in VIT?
+    - VIT lateral entry for Diploma holders?
+    - latency entre to vit
+    - latency entry
+    - admission late
+    - late admission
+
+#################################################################################################################
+
+#####################   viteee-faq-related    #################
+
+- intent: viteee_faq_related_q1
+  examples: |
+    - Is VITEEE mandatory or would merit of XII / Higher Secondary Board, JEE Main / SAT scores be considered for admission to the B.Tech. Degree Programme?
+    - Will VITEEE be the sole criterion for admission to the B.Tech. Degree Programme or will other criteria like XII/Higher Secondary Board merit, JEE Main/SAT scores also be considered?
+    - Are XII/Higher Secondary Board merit and JEE Main/SAT scores considered for admission to the B.Tech. Degree Programme along with VITEEE or is VITEEE the only requirement?
+    - Is it compulsory to appear for VITEEE for admission to the B.Tech. Degree Programme or will merit of XII/Higher Secondary Board and JEE Main/SAT scores also be given weightage?
+    - VITEEE importance in B.Tech. admission?
+    - VITEEE, XII, JEE, SAT for B.Tech. admission?
+    - B.Tech. admission: VITEEE or other criteria?
+
+- intent: viteee_faq_related_q2
+  examples: |
+    - What would be the syllabus and Question pattern (QP) for the VITEEE?
+    - how many marks is the viteee exam out of 
+    - What is the syllabus and question pattern for VITEEE?
+    - Is the syllabus and question pattern for VITEEE available? If yes, can you provide the details?
+    - VITEEE QP and syllabus details?
+    - VITEEE: Syllabus and QP information?
+    - Syllabus and QP for VITEEE?
+    - Where can I find the syllabus and question pattern for VITEEE?
+    - syllabus for viteee
+    - what shall we study for viteee exam
+
+- intent: viteee_faq_related_q3
+  examples: |
+    - Could I have some information on the VITEEE?
+    - Can you give me some details about VITEEE?
+    - VITEEE: What you should know?
+    - Where can I find more information on VITEEE
+    - I would like to learn about VITEEE. Could you help me with that?
+    - Could you please provide some information on VITEEE?
+    - Important VITEEE facts?
+    - how viteee exam
+    - dates of viteee exam 
+    - viteee exam dates
+    - exam date of viteee
+
+- intent: viteee_faq_related_q4
+  examples: |
+    - Will VITEEE 2023 be held as scheduled, considering the fact that CBSE and State Board exams have been postponed owing to the recent pandemic?
+    - Will VITEEE 202. happen on time?
+    - Considering the recent pandemic situation and the postponement of CBSE and State Board exams, will VITEEE 2022 be conducted on the scheduled date?
+    - Is VITEEE 2023 happening as planned?
+    - VITEEE 2023 in light of CBSE/State Board delays?
+    - VITEEE 2023 as per schedule?
+    - Can you please provide information on whether VITEEE 2023 will be conducted on its scheduled date, taking into account the pandemic and the delay of CBSE and State Board exams?
+    - What is Viteee exam
+    - how does viteee exam works
+    - time duration of exam
+
+
+- intent: viteee_faq_related_q5
+  examples: |
+    - If a student has selected / allotted a particular branch of Engineering through counselling, in a selected campus, under a specific category, would it be possible to change the branch, campus or category later?
+    - Is it possible to change the branch, campus or category after being allotted a specific branch of engineering in a selected campus through counselling?
+    - After being allotted a specific branch of engineering in a selected campus through counselling, is there a provision for changing the branch, campus or category?
+    - Is there any way to change the branch, campus or category after being allotted a specific branch of engineering in a selected campus through counselling?
+    - Can the branch, campus or category be modified after being allotted a specific branch of engineering in a selected campus through counselling?
+    - Can the branch, campus or category be modified after being allotted a specific branch of engineering in a selected campus through counselling? Is there any way to change the branch, campus or category
+    - How to change branch
+    - How how to change category in vit
+    - Is there any way to change the branch, campus or category after being allotted a specific branch of engineering in a selected campus through counselling?
+
+- intent: viteee_faq_related_q6
+  examples: |
+    - What would be the valid ID proofs needed to be produced in the entrance examination hall, in addition to the E-admit card with photograph?
+    - Besides the E-admit card with a photograph, what are the other ID proofs that need to be furnished in the entrance examination hall?
+    - What additional ID proofs are necessary to be produced along with the E-admit card with a photograph for appearing in the entrance examination hall?
+    - Can you tell me which additional ID proofs are mandatory to be shown along with the E-admit card with a photograph in the entrance examination hall?
+    - Apart from the E-admit card with a photograph, what are the other documents that are required to be presented as valid ID proofs in the entrance examination hall?
+    - What other valid ID proofs are needed to be carried along with the E-admit card with a photograph for taking the entrance examination?
+    - id cards for viteee
+    - id cards required for viteee
+    - What are the valid ID proofs required to be carried along with the E-admit card with a photograph to the examination hall?
+
+- intent: viteee_faq_related_q7
+  examples: |
+    -  Is there an option to 'Edit' the application form in web?
+    - Can I make changes to my submitted application form on the VIT website?
+    - If I make a mistake in the application form, can I correct it on the VIT website?
+    - Will I be able to edit the information provided in my application form on the VIT website?
+    - Does VIT offer the option to modify the application form online after submission?
+    - Is there an 'Edit' button available on the VIT website for modifying the application form?
+    - can i edit application
+    - Is it possible to edit the application form after submission on the VIT website?
+
+- intent: viteee_faq_related_q8
+  examples: |
+    - How do I edit my application?
+    - Can I make changes to my application after submitting it?
+    - Is it possible to edit my application form?
+    - Is there a way to edit the application form online?
+    - How can I modify my application form?
+    - What is the process to make changes to my application?
+    - Can I update my application details after submission?
+
+- intent: viteee_faq_related_q9
+  examples: |
+    - What am I supposed to do if my PIN code is not found in my application?
+    - What should I do if my application does not have my PIN code?
+    - I couldn't find my PIN code in the application form. What should be my next course of action?
+    - In case my PIN code is not mentioned in the application, what are the steps I need to take?
+    - If my application is missing the PIN code, what should I do to rectify the issue?
+    - How can I proceed if my PIN code is missing from my application?
+    - pin code error
+    - My PIN code is not present in my application. What should I do now?
+
+#################################################################################################################
+
+#####################   viteee-faq-eligibility-related    #################
+
+- intent: viteee_faq_eligibility_related_q1
+  examples: |
+    - I have secured 62% overall in +2 examination, but 53.35% in PCM / PCB. In such case, am I eligible for admission?
+    - Can I apply for admission to VIT with 62% overall in +2 examination, but only 53.35% in PCM / PCB?
+    - Is it possible to get admission in VIT with 53.35% in PCM / PCB and 62% overall in +2 examination?
+    - What is the minimum percentage required in PCM / PCB to be eligible for admission to VIT?
+    - Can I get admission to VIT if I don't have the required percentage in PCM / PCB but have an overall percentage of 62% in +2 examination?
+    - Will my 53.35% in PCM / PCB affect my eligibility for admission to VIT even if I have scored 62% overall in +2 examination?
+    - Is there any relaxation in the minimum percentage requirement for PCM / PCB in case of candidates who have scored well in their overall +2 examination?
+
+- intent: viteee_faq_eligibility_related_q2
+  examples: |
+    - Is there a specific age limit to apply for VITEEE?
+    - Is there a specific age requirement for VITEEE applications?
+    - Max age for VITEEE application?
+    - VITEEE application age requirements?
+    - What age range is eligible for VITEEE applications?
+    - Is there a specific age requirement for VITEEE applications?
+    - Can you apply for VITEEE regardless of your age?
+    - age limit
+
+- intent: viteee_faq_eligibility_related_q3
+  examples: |
+    - I am an Indian but have completed my 10+2 system of Higher Secondary Education abroad. What would I enter under the 'Nationality' field in such case?
+    - If I completed my Higher Secondary Education abroad as an Indian, what should I put in the 'Nationality' field?
+    - Foreign 10+2 but Indian citizen - nationality selection?
+    - I'm an Indian citizen who completed 10+2 education outside India. What should I select as my nationality in the application form?
+    - Nationality selection for Indian with foreign 10+2?
+    - As an Indian with a foreign 10+2 education, what is the correct choice for the 'Nationality' field in the application form?
+    - I completed my 10+2 abroad, but I'm an Indian. Which option should I choose for nationality in the application form?
+
+- intent: viteee_faq_eligibility_related_q4
+  examples: |
+    - Which Engineering stream would I be eligible to apply for if I opt for Physics, Chemistry and Biology?
+    - If I take Physics, Chemistry, and Biology, what are my choices for Engineering streams?
+    - Would selecting Physics, Chemistry, and Biology allow me to apply for any Engineering courses?
+    - Physics, Chemistry, and Biology are my chosen subjects. Which Engineering streams can I pursue?
+    - I'm interested in studying Physics, Chemistry, and Biology - which Engineering fields would I be able to apply for?
+    - If my subjects are Physics, Chemistry, and Biology, what options do I have for Engineering streams?
+    - What are the Engineering streams available for someone who selects Physics, Chemistry, and Biology?
+    - eligibility criteria of viteee
+
+#################################################################################################################
+
+#####################   viteee-faq-ranking-related    #################
+
+- intent: viteee_faq_ranking_related_q1
+  examples: |
+    - cutoff of viteee
+    - vitap cutoff
+    - cutoff
+    - What's the cut off / rank in VITEEE required for my desirable course?
+    - To gain admission to my desired course, what is the necessary VITEEE cut off or rank?
+    - I'm curious about the VITEEE cut off or rank needed for the course I want to study - can you provide that information?
+    - What is the required VITEEE cut off or rank for the Engineering stream I want to apply for?
+    - What is the minimum VITEEE rank or cut off score I need for the Engineering field I'm interested in?
+    - I have a specific Engineering stream in mind - what VITEEE cut off or rank do I need to achieve for that course?
+    - What VITEEE rank or cut off is necessary for admission to the Engineering field I'm interested in?
+
+- intent: viteee_faq_ranking_related_q2
+  examples: |
+    - What should be the VITEEE preparation strategies?
+    - To excel in VITEEE, what strategies should I incorporate into my preparation plan?
+    - I want to improve my VITEEE performance - what preparation strategies would you suggest?
+    - If I want to do well on VITEEE, what preparation strategies should I focus on?
+    - Can you provide me with some VITEEE preparation tips and strategies?
+    - preparation strategies
+    - What VITEEE preparation strategies have worked for others?
+    - Can you provide me with some VITEEE preparation strategies that I should follow?
+
+- intent: viteee_faq_ranking_related_q3
+  examples: |
+    - When will be the mock exam for VITEEE?
+    - When is the mock exam for VITEEE scheduled to take place?
+    - What is the timeline for the VITEEE mock exam?
+    - I would like to know when the VITEEE mock exam is scheduled - can you help me with that?
+    - I'm interested in taking the VITEEE mock exam - when is it scheduled?
+    - When will the mock exam for VITEEE be conducted?
+    - mock exam
+    - viteee mock exam
+    - is there any mock exam for viteee 
+    - I'm wondering about the timing of the VITEEE mock exam - when is it?
+
+- intent: viteee_faq_ranking_related_q4
+  examples: |
+    - marks per question in viteee
+    - Marking Scheme of VITEEE ranking?
+    - How is the ranking calculated for VITEEE? What is the marking scheme?
+    - What is the method used to calculate VITEEE rankings?
+    - What factors are considered in the VITEEE marking scheme for ranking?
+    - Could you explain the role of the marking scheme in the VITEEE ranking system?
+    - To understand the VITEEE ranking system, what is the marking scheme used?
+    - What is the marking scheme used to determine the ranking in VITEE
+
+#################################################################################################################
+
+#####################   viteee-faq-transaction-related     #################
+
+- intent: viteee_faq_transaction_related_q1
+  examples: |
+    - What do I do if I have made the payment but not received a confirmation?
+    - What is the protocol to follow if payment is made but no confirmation is received for VITEEE?
+    - How can I resolve the issue of not receiving a confirmation after making the payment for VITEEE?
+    - What options do I have if I have made the payment for VITEEE but didn't receive any confirmation?
+    - Could you provide me with some guidance on what to do if payment is made but no confirmation is received for VITEEE?
+    - Is there a way to confirm payment for VITEEE if a confirmation wasn't received?
+    - payment done but not confirmed
+    - not confirming even after payment
+    - I need assistance regarding payment confirmation for VITEEE - what should I do if I haven't received one?
+
+- intent: viteee_faq_transaction_related_q2
+  examples: |
+    - Would there be a refund if I have made two payment transactions for my VITEEE application?
+    - I accidentally made two payment transactions for my VITEEE application - will I be eligible for a refund?
+    - I made double payment for my VITEEE application - can I get a refund for one of them?
+    - If I have accidentally paid for VITEEE application twice, will I be able to receive a refund?
+    - What is the procedure to follow if two payments are mistakenly made for VITEEE application and a refund is desired?
+    - Could you inform me of the refund policy for double payments made for VITEEE application?
+    - refund for double payments
+    - What is the process for obtaining a refund if two payments were made for VITEEE application?
+
+- intent: viteee_faq_transaction_related_q3
+  examples: |
+    -  What If I haven't received refund within 5-7 working days?
+    - What should I do if I haven't received refund it within 5-7 working days?
+    - I'm concerned because I haven't received refund it within 5-7 working days - what's the next step?
+    - What do I do if it hasn't been delivered refund within the 5-7 working day window?
+    - What course of action is suggested if it doesn't arrive refund within the 5-7 working day period as mentioned?
+    - How do I proceed if refund hasn't arrived within 5-7 working days?
+    - If I haven't received it within the stipulated 5-7 working days, what course of action should I take?
+
+- intent: viteee_faq_transaction_related_q4
+  examples: |
+    - Where could I find information about the 'Test cities'?
+    - From where can I gather information regarding the 'Test cities'?
+    - What resources are available for me to check the 'Test cities' for the VITEEE exam?
+    - What is the avenue to obtain details about the 'Test cities'?
+    - Can you suggest a platform to obtain details about the 'Test cities' for VITEEE?
+    - What is the best way to obtain information about the 'Test cities' for VITEEE?
+    - Where can I locate details about the 'Test cities'?
+    - in which cities tests go on
+    - cities of tests
+    - is test is in my city
+    - exam centres
+    - is exam centre is in my place
+
+
+#################################################################################################################
+
+#####################   viteee-faq-slot-booking     #################
+
+- intent: viteee_faq_slot_booking_q1
+  examples: |
+    - How can I get the admit card?
+    - What is the process to obtain the admit card?
+    - Can you guide me on how to get the admit card for the exam?
+    - How can I obtain the admit card for the exam?
+    - How can I ensure that I receive the admit card for the VITEEE on time?
+    - What steps should I take to receive the admit card?
+    - What is the procedure for obtaining the admit card?
+    - admit card 
+
+- intent: viteee_faq_slot_booking_q2
+  examples: |
+    - What is slot booking in VIT?
+    - What is the purpose of slot booking in VIT?
+    - What are the details of the slot booking process in VIT?
+    - How does the slot booking process work in VIT?
+    - Can you elaborate on the slot booking procedure in VIT?
+    - Could you provide an explanation for slot booking in VIT?
+    - Is there any specific criterion for slot booking in VIT?
+    - slot booking
+
+- intent: viteee_faq_slot_booking_q3
+  examples: |
+    - Can student change their slots?
+    - Can students make alterations to their slot reservation in VIT?
+    - Are there any restrictions on changing the slot once it is booked for the VIT exam?
+    - What is the process for changing a slot in VIT?
+    - How many times can a student change their slot for the VIT exam?
+    - Is there an option for students to change their slot in VIT?
+    - What is the policy on changing slots for VIT students?
+
+- intent: viteee_faq_slot_booking_q4
+  examples: |
+    - Can student change their Test city?
+    - Is it possible for students to change their Test city?
+    - Are there any charges for changing the Test city preference in VIT?
+    - How many times can a student change their Test city for VIT?
+    - Are there any restrictions on changing the Test city preference once it is submitted for VIT?
+    - What is the policy on changing Test cities for VIT students?
+    - Can a student modify their Test city preference after submission?
+    - change exam centre
+    - change city exam centre
+
+- intent: viteee_faq_slot_booking_q5
+  examples: |
+    -  If student missed the slot booking, can he still apply?
+    - What are the options for a student who missed the slot booking for VIT?
+    - Is it possible to apply for VIT if a student missed the slot booking?
+    - Can students who missed the slot booking for VIT apply in the next cycle?
+    - Are there any penalties for missing the slot booking deadline for VIT?
+    - Is it mandatory to book a slot to apply for VIT?
+    - How can a student ensure they do not miss the slot booking for VIT?
+
+- intent: viteee_faq_slot_booking_q6
+  examples: |
+    - What was the last year's intake for B.Tech?
+    - What was the student enrollment for B.Tech last year?
+    - What was the intake for B.Tech last year?
+    - What was the cutoff rank for B.Tech admission last year?
+    - How many students applied for B.Tech last year?
+    - What was the maximum number of students accepted for B.Tech last year?
+    - What was the capacity of the B.Tech program last year?
+    - last year seating for viteee
+    - seats in vit
+
+#################################################################################################################
+
+#####################   viteee-faq-scholarship     #################
+
+- intent: viteee_faq_scholarship_q1
+  examples: |
+    - Does VIT provide scholarships to VITEEE meritorious students?
+    - Are there scholarships available for VITEEE meritorious students at VIT?
+    - How do VITEEE scholarships at VIT affect the overall fees structure for students?
+    - What is the selection criteria for scholarships for VITEEE meritorious students at VIT?
+    - Are there any additional benefits or perks that come with VITEEE scholarships at VIT?
+    - What is the application process for scholarships for VITEEE meritorious students at VIT?
+    - How does VIT recognize and reward top performers in VITEEE?
+    - scholarship in vit
+    - viteee scholarship
+
+- intent: viteee_faq_scholarship_q2
+  examples: |
+    - Does VIT provide scholarships to students from rural areas and underprivileged meritorious students?
+    - Can underprivileged meritorious students at VIT apply for scholarships?
+    - Does VIT offer financial assistance to deserving candidates from underprivileged backgrounds?
+    - How does VIT support and encourage students from underprivileged backgrounds to pursue higher education?
+    - What impact do VIT scholarships have on the career prospects of underprivileged meritorious students?
+    - Are there any mentoring or coaching programs offered to scholarship recipients from underprivileged backgrounds at VIT?
+    - How many scholarships are typically awarded to underprivileged meritorious students at VIT?
+    - star batch
+    - free seat in vit
+    - what is star batch
+    - star
+
+#################################################################################################################
+
+#####################   viteee-faq-hostel     #################
+
+- intent: viteee_faq_hostel_q1
+  examples: |
+    - What is the hostel facilities offered on campus? 
+    - Are there any specific rules or guidelines for students residing in the VIT hostels?
+    - Are there any separate hostels for boys and girls on the VIT campus?
+    - What are the meal options available for students staying in the VIT hostels?
+    - How is the hostel fee calculated at VIT?
+    - Are there any separate hostels for boys and girls on the VIT campus?
+    - hostels
+    - hostels in vit
+    - academic hostels
+    - How many hostels are there on the VIT campus and what are their facilities?
+
+- intent: viteee_faq_hostel_q2
+  examples: |
+    - hostel fees
+    - fee structure of hostels
+    - hostels
+    - Where can I find details on Hostel fees?
+    - Are there any discounts or scholarships available for hostel fees at VIT?
+    - How does VIT determine the hostel fees for students?
+    - Can a student request a change in hostel room if they are not satisfied with their current accommodation after paying the fees?
+    - How often are the hostel fees revised or updated at VIT?
+    - How does VIT determine the hostel fees for students?
+    - What are the consequences if a student fails to pay their hostel fees on time at VIT?
+
+#################################################################################################################
+
+#####################   viteee-faq-academic     #################
+
+- intent: viteee_faq_academic_q1
+  examples: |
+    - Where can I find info on the M.Tech Integrated /PG programs?
+    - Could you guide me to the webpage where I can find information on M.Tech Integrated/PG programs at VIT?
+    - Where can I find detailed information about the M.Tech Integrated/PG programs offered at VIT?
+    - What is the placement scenario for M.Tech Integrated/PG students at VIT, and can you provide some statistics or examples?
+    - How does VIT ensure the quality of teaching and learning for M.Tech Integrated/PG programs?
+    - Are there any collaborations or partnerships between VIT and industries for M.Tech Integrated/PG students?
+    - more info of mtech
+    - Can a student switch from M.Tech Integrated/PG to a regular M.Tech program or vice versa at VIT?
+
+- intent: viteee_faq_academic_q2
+  examples: |
+    - What are the other Undergraduate Degree programs offered in VITAP?
+    - Could you provide me with a list of the other undergraduate degree programs offered at VITAP?
+    - Undergraduate Degree programs offered in VITAP
+    - Are there any collaborations or exchange programs with international universities for undergraduate students at VITAP?
+    - What are the different courses available for undergraduate studies at VITAP, apart from the one I am interested in?
+    - Can undergraduate students at VITAP participate in research projects or internships during their course of study?
+    - What are the extracurricular activities and student clubs available for undergraduate students at VITAP?
+    - What is the admission process and eligibility criteria for undergraduate degree programs at VITAP?
+
+- intent: viteee_faq_academic_q3
+  examples: |
+    - What is Fully Flexible Credit System?
+    - How does the Fully Flexible Credit System work?
+    - In what ways does the Fully Flexible Credit System differ from traditional higher education systems?
+    - How does the Fully Flexible Credit System allow students to customize their academic journey?
+    - Can you give me an example of how the Fully Flexible Credit System works in practice?
+    - Could you provide an overview of the Fully Flexible Credit System?
+    - ffcs means
+    - what is ffcs
+    - what is fully fexible credit system
+    - is ffcs is in vit
+    - does vit has fully fexible credit system
+    - What are the benefits of the Fully Flexible Credit System for students?
+
+- intent: viteee_faq_academic_q4
+  examples: |
+    - What is International Transfer Program (ITP)? Where can I get to know more?
+    - What exactly is the International Transfer Program (ITP) and how does it work?
+    - Can you provide me with information on the International Transfer Program (ITP) offered by VIT?
+    - Are there any specific requirements for students who wish to enroll in the International Transfer Program (ITP)?
+    - How does the International Transfer Program (ITP) differ from other study abroad programs?
+    - What kind of academic opportunities does the International Transfer Program (ITP) offer to students?
+    - Where can I find more detailed information about the International Transfer Program (ITP) offered by VIT?
+
+- intent: viteee_faq_academic_q5
+  examples: |
+    -  What is the Semester Abroad Program (SAP)?
+    - I'm curious about the Semester Abroad Program, also known as SAP. What can you tell me about it?
+    - Can you explain what SAP is? It's the Semester Abroad Program, right?
+    - Could you give me the lowdown on SAP? I'm interested in the Semester Abroad Program.
+    - Hey, do you know anything about the Semester Abroad Program, or SAP for short?
+    - I've heard of SAP, but I'm not exactly sure what it stands for. Can you tell me more about the Semester Abroad Program?
+    - What's the Semester Abroad Program (SAP)? Could you give me some information about it?
+
+- intent: viteee_faq_academic_q6
+  examples: |
+    - How are placements at VITAP?
+    - What's the placement scene like at VITAP? Are students getting good job offers?
+    - How are the placements at VITAP? Are they satisfactory?
+    - I'm considering VITAP for my higher education, but I'm curious about the job prospects. How are the placements?
+    - Could you tell me about the placement record of VITAP? Are students getting placed in top companies?
+    - Hey, can you give me an idea of how the placements are at VITAP? Are they good?
+    - placements
+    - placements in vit
+    - vit palcements
+    - vitap placements
+    - What's the status of placements at VITAP? Do students get placed in reputed companies?
+    
+#################################################################################################################
+
+#####################   viteee-faq-nri     #################
+
+- intent: viteee_faq_nri_q1
+  examples: |
+    - Can Indian passport holders whose parents are employed abroad can apply for both NRI as well as VITEEE?
+    - I'm an Indian passport holder, and my parents work abroad. Can I apply for both NRI and VITEEE seats?
+    - Can Indian students with parents working abroad apply for both NRI and VITEEE categories for admission?
+    - I have an Indian passport, and my parents are employed abroad. Am I eligible to apply for both NRI and VITEEE seats?
+    - Hey, I'm an Indian passport holder, and my parents work overseas. Can I apply for both NRI and VITEEE admissions?
+    - Can students holding Indian passports with parents working abroad apply for both NRI and VITEEE seats in the admission process?
+    - Are Indian passport holders whose parents work abroad allowed to apply for both NRI and VITEEE categories for admission?
+    - passport
+
+- intent: viteee_faq_nri_q2
+  examples: |
+    - Can PIO card holders can also apply for VITEEE ?
+    - Can students holding PIO cards also apply for VITEEE?
+    - Are PIO card holders eligible to apply for VITEEE?
+    - I have a PIO card, can I apply for VITEEE?
+    - Hey, I was wondering if PIO card holders can also apply for VITEEE?
+    - Is it possible for students with PIO cards to apply for VITEEE?
+    - Can individuals who possess a PIO card apply for VITEEE?
+
+- intent: viteee_faq_nri_q3
+  examples: |
+    - What admission procedure are there under NRI/ Foreign categories?
+    - Can you explain the admission process for NRI/Foreign categories?
+    - What are the procedures for admission under NRI/Foreign categories?
+    - Hey, I'm interested in applying under the NRI/Foreign category. Can you tell me about the admission procedure?
+    - I'm a non-resident Indian (NRI) looking to apply to VIT through the Foreign category. Could you walk me through the admission process?
+    - Could you provide me with information about the admission procedures for NRI/Foreign categories?
+    - What's the process for applying to VIT under the NRI/Foreign categories?
+
+- intent: viteee_faq_nri_q4
+  examples: |
+    - Details on NRI admissions ?
+    - Can you give me more information about the admission process for NRIs?
+    - I'm curious about the NRI admission process. Could you provide me with details?
+    - Hey, I'm interested in the NRI admissions. Can you tell me more about it?
+    - What are the admission requirements and procedures for NRIs?
+    - Could you give me an overview of the NRI admissions at VIT?
+    - I'm considering applying through the NRI category, but I need more information. What do I need to know about the admission process?
+
+- intent: viteee_faq_nri_q5
+  examples: |
+    - Details on Foreign admissions?
+    - Can you provide me with more information about the admission process for foreign students?
+    - I'm interested in the foreign admissions process. Could you give me some details?
+    - Hey, I'm considering applying as a foreign student. Can you tell me more about the admission requirements?
+    - What are the admission procedures for international students?
+    - Could you give me an overview of the foreign admissions process at VIT?
+    - I'm an international student, and I'm interested in applying to VIT. What do I need to know about the admission process?
+    - NRI ADMISSION
+    - foriengners admission
+
+#################################################################################################################
+
+#####################   viteee-B.Comm    #################
+
+- intent: viteee_BComm_q1
+  examples: |
+   -Can Science stream students pursue a B.Com (Finance) course in VIT-AP University?
+   -background for bcom
+   -background for bcomm
+   -stream for B.Comm
+   -BAckground for B.Com
+   -Is it possible for students from a Science background to enroll in a B.Com (Finance) program at VIT-AP University?
+   -Could Science students be eligible to take up the B.Com (Finance) course at VIT-AP University?
+   -Would it be feasible for Science stream students to pursue a degree in B.Com (Finance) at VIT-AP University?
+   -Do Science students have the option to study B.Com (Finance) at VIT-AP University?
+   -May students who have pursued Science in their high school consider studying B.Com (Finance) at VIT-AP University?
+   -Is the B.Com (Finance) course at VIT-AP University open to students who have completed their high school education in the Science stream?
+
+- intent: viteee_BComm_q2
+  examples: |
+    -What is the minimum eligibility criteria for B. Com (Finance)? 
+    - eligibility criteria for b.com
+    -Is Mathematics important for B.Com (Finance)?
+    -Eligibility for b.com
+    -eligibility b com
+    -who is eligible for b.comm
+    -req 4 bcom
+    -req for bcom
+    -requiremets for bcom
+    -What are the basic requirements to be eligible for B. Com (Finance)?
+    -What is the minimum threshold for eligibility for B. Com (Finance)?
+    -Which criteria must be met at a minimum to qualify for B. Com (Finance)?
+    -What is the least requirement to be eligible for B. Com (Finance)?
+    -What is the lowest eligibility standard for B. Com (Finance)?
+    -What is the minimum criterion one must meet to be eligible for B. Com (Finance)?
+
+- intent: viteee_BComm_q3
+  examples: |
+    -What is the difference between B.Com and B.Com (Finance) course?
+    -difference between the b.comm courses
+    -What are the differences bw the b com courses
+    -compare the b.com courses
+    -which b com course?
+    -differences btw bcom courses
+    -compare bcoms
+    -compare bcom courses
+    -difference in bcoms
+    -How does the B.Com (Finance) course differ from the regular B.Com course?
+    -In what ways do B.Com and B.Com (Finance) courses vary?
+    -Could you outline the disparities between the B.Com and B.Com (Finance) courses?
+    -What distinguishes the B.Com (Finance) course from the conventional B.Com course?
+    -What are the contrasting features of the B.Com (Finance) course and the B.Com course?
+    -How are the B.Com (Finance) and B.Com courses different from each other?
+
+- intent: viteee_BComm_q4
+  examples: |
+    -Should I pursue B. Com (Finance) for Passing CA easily?
+    -I want to become CA
+    -how to become CA
+    -I am interest in ca
+    -interested in ca
+    -will b com help in ca?
+    -bcom for ca
+    -should I do bcom if I want to be ca?
+    -why do bcom?
+    -why bcom?
+    -y bcom?
+    -what is bcom?
+    -what's bcom?
+    -whats bcom?
+    -help me become ca
+    -Would pursuing B.Com (Finance) make it easier for me to pass CA?
+    -Is B.Com (Finance) a good choice to make passing CA easier for me?
+    -If I pursue B.Com (Finance), will it increase my chances of passing CA easily?
+    -Is B.Com (Finance) a recommended course to take to pass CA with ease?
+    -Would studying B.Com (Finance) be beneficial for me to easily pass CA?
+    -Should I consider pursuing B.Com (Finance) as a means of making it easier to pass CA?
+
+- intent: viteee_BComm_q5
+  examples: |
+    -What Subjects of CA Course You will be covering while pursuing B.Com (Finance) Course at VIT-AP University?
+    -subjects in b.com
+    -what will I learn in b.com?
+    -curriculum of b com
+    -b.com syllabus
+    -bcom syllabus
+    -bcom curriculum
+    -ca course
+    -abt ca course
+    -ca in bcom
+    -abt bcom
+    -about bcom
+    -During your pursuit of a B.Com (Finance) degree at VIT-AP University, what CA Course subjects will you study?
+    -Which CA Course subjects will you cover while studying B.Com (Finance) at VIT-AP University?
+    -While pursuing a B.Com (Finance) degree at VIT-AP University, what are the CA Course subjects that will be included in your curriculum?
+    -At VIT-AP University, what CA Course subjects will you learn as part of the B.Com (Finance) program?
+    -What are the CA Course subjects that you will study while completing your B.Com (Finance) degree at VIT-AP University?
+    -In the B.Com (Finance) program at VIT-AP University, what are the CA Course subjects that you will be taught?
+
+#################################################################################################################
+
+#####################   viteee-BBA-about    #################
+
+- intent: viteee_BBA_about_q1
+  examples: |
+    -What is BBA Program?
+    -about BBA
+    -why bba?
+    -tell me abt bba
+    -tell me about bba
+    -y bba?
+    -y bba
+    -what is bba?
+    -what's bba?
+    -whats bba?
+    -Could you explain what the BBA Program is?
+    -What does the acronym BBA stand for and what does the program entail?
+    -I'm not familiar with the BBA Program. Could you give me an overview?
+    -Would you mind providing me with some information about the BBA Program?
+    -Can you tell me about the BBA Program and what it involves?
+    -I'm interested in learning more about the BBA Program. Could you tell me what it is?
+
+- intent: viteee_BBA_about_q2
+  examples: |
+    -What are the different programmes under BBA?
+    -What are the programs under BBA?
+    -what are the bba programs offered?
+    -Can you provide a list of the BBA programs available?
+    -What specific BBA programs are offered?
+    -Under the BBA umbrella, which programs are available?
+    -What are the various BBA programs that one can enroll in?
+    -Which programs are included in the BBA curriculum?
+    -Can you tell me about the different degree programs within BBA?
+
+- intent: viteee_BBA_about_q3
+  examples: |
+    -What are Specialisations in BBA?
+    -what are the specializations under bba?
+    -Can you provide information on the different specializations available in a BBA program?
+    -In a BBA program, what areas of specialization are typically offered?
+    -What are the specific fields of study that a student can specialize in while pursuing a BBA degree?
+    -BBA programs often offer specializations in various areas. What are some examples?
+    -What are the focus areas that a student can choose to specialize in when studying BBA?
+    -Could you explain the different specializations that are available to BBA students?
+
+- intent: viteee_BBA_about_q4
+  examples: |
+    -What is Business Analytics?
+    -about Business Analytics
+    -explain business analytics
+    -do uk abt bizness analytics?
+    -abt business analytics?
+    -what are the features of bba?
+    -Can you please tell me about bba?
+    -How would you define Business Analytics?
+    -Could you explain the concept of Business Analytics?
+    -What does the term Business Analytics refer to?
+    -In your own words, what is Business Analytics?
+    -Can you provide a definition for Business Analytics?
+    -What exactly is meant by Business Analytics?
+
+- intent: viteee_BBA_about_q5
+  examples: |
+    -Why should I choose Business Analytics?
+    -Why Business Analytics?
+    -What is the scope of business analytics?
+    -What makes Business Analytics a good choice for me?
+    -Can you give me reasons why Business Analytics is worth pursuing?
+    -What advantages are there to selecting Business Analytics as my field of study?
+    -How would choosing Business Analytics benefit me in the long run?
+    -In what ways can Business Analytics be beneficial for me?
+    -What are the benefits of opting for Business Analytics?
+
+- intent: viteee_BBA_about_q6
+  examples: |
+    -What is unique about the BBA Curriculum?
+    -what's different in BBA curriculum?
+    -what is the curriculum of bba course?
+    -what is bba syllabus?
+    -circullum of bba
+    -What sets the BBA Curriculum apart?
+    -In what way is the BBA Curriculum distinctive?
+    -How does the BBA Curriculum differ from others?
+    -What makes the BBA Curriculum stand out?
+    -What distinguishes the BBA Curriculum?
+    -What is special about the BBA Curriculum?
+
+
+#################################################################################################################
+
+#####################   viteee-msc-physics    #################
+
+- intent: viteee_msc_physics_q1
+  examples: |
+   - What is the eligibility criteria for the msc programme?
+   - eligibility criteria for msc physics
+   - msc physics eligibility criteria
+
+
+- intent: viteee_msc_physics_q2
+  examples: |
+   - When is the start date for the msc programme?
+   - What is the expected start date for the msc program?
+   - Has the start date for the msc program been announced yet?
+   - Are there any plans to delay the start date for the msc program?
+
+
+- intent: viteee_msc_physics_q3
+  examples: |
+   - What is the duration of the msc programme?
+   - How long does the msc program typically last?
+   - Is the msc program a full-time or part-time commitment?
+   - Are there any options for accelerating or extending the msc program duration?
+   - Can students take breaks during the msc program or is it a continuous commitment?
+   - Does the duration of the msc program vary depending on the area of study?
+   - Are there any opportunities for internships or work placements as part of the program?
+
+- intent: viteee_msc_physics_q4
+  examples: |
+   - Is there any research project opportunity available during the programme?
+   - Are there any research projects available as part of the program curriculum?
+   - Can students propose their own research projects to work on during the program?
+   - Is participation in a research project mandatory to complete the program?
+   - Are there any specific research areas that are available for students to work on?
+   - Are there any opportunities for collaboration with industry partners on research projects?
+   - Are there any grants or funding available for students to support their research projects?
+
+- intent: viteee_msc_physics_q5
+  examples: |
+   - Is there any specialization offered in msc physics?
+   - Are there any specializations available within the program curriculum?
+   - Can students choose a specialization to focus on during the program?
+   - Is it mandatory to choose a specialization in order to complete the program?
+   - Are there any prerequisites required for specific specializations?
+   - Can students switch their specialization during the program?
+   - Are there any unique opportunities or benefits to choosing a particular specialization?
+
+- intent: viteee_msc_physics_q6
+  examples: |
+   - What are the career opportunities in after obtaining the degree?
+   - What types of jobs are graduates typically qualified for after completing the program?
+   - Are there any specific industries or fields that graduates of the program are particularly well-suited for?
+   - Are there any notable companies or organizations that actively recruit graduates of the program?
+   - What types of roles or positions do graduates of the program typically start out in?
+   - Are there any opportunities for career advancement or further education after completing the program?
+   - Are there any alumni networks or career resources available to graduates of the program?
+
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-application    #################
+
+- intent: viteee_msc_chemistry_application_q1
+  examples: |
+   - What is the eligibility criteria for the programme?
+   - What are the minimum academic requirements for admission to the program?
+   - Are there any language proficiency requirements for international students?
+   - Is work experience required to be eligible for the program?
+   - Are there any age restrictions for applicants?
+   - Are there any specific prerequisites or coursework that must be completed prior to applying for the program?
+   - Are there any specific qualities or attributes that the admissions committee looks for in applicants?
+
+- intent: viteee_msc_chemistry_application_q2
+  examples: |
+   - Am I eligible to apply msc chemistry?
+   - Do I meet the academic requirements to apply for the program?
+   - Have I completed the necessary prerequisites or coursework to be eligible for the msc program?
+   - Do I have the required work experience to apply for the msc chemistry program?
+   - Are there any other factors that may impact my eligibility to apply for the msc program?
+
+- intent: viteee_msc_chemistry_application_q3
+  examples: |
+   - Which programme is most suitable for my profile?
+   - What are your academic and professional backgrounds?
+   - What are your career goals and areas of interest?
+   - Are there any programs that align with your academic and professional backgrounds?
+   - Are there any programs that align with your career goals and areas of interest?
+   - Have you considered the job prospects and career opportunities for graduates of each program?
+   - Have you spoken with academic advisors or professionals in the field to help determine which program is most suitable for your profile?
+
+- intent: viteee_msc_chemistry_application_q4
+  examples: |
+   - How do I apply msc chemistry
+
+- intent: viteee_msc_chemistry_application_q5
+  examples: |
+   - Where can I get help with the msc application process?
+   - Is there an admissions office or department that can provide assistance with the application process?
+   - Are there any informational sessions or events that provide guidance on the application process?
+   - Are there any academic advisors or counselors available to help with the application process?
+   - Is there an online forum or community where applicants can ask questions and receive help with the application process?
+   - Can alumni or current students provide insight or guidance on the application process?
+   - Are there any resources or materials available to assist with the application process, such as application guides or checklists? 
+
+- intent: viteee_msc_chemistry_application_q6
+  examples: |
+   - When should I submit my application?
+   - Is there an application deadline for the program?
+   - Are applications reviewed on a rolling basis or at specific intervals throughout the year?
+   - Is there a benefit to submitting an application early?
+   - Are there any factors that may impact the timing of the application submission, such as prerequisite coursework or availability of required documents?
+   - Is there any flexibility with the application deadline or submission date?
+   - Are there any important dates or events related to the program that applicants should be aware of before submitting their application?
+
+- intent: viteee_msc_chemistry_application_q7
+  examples: |
+   - What should my application include?
+   - should my application include?
+
+- intent: viteee_msc_chemistry_application_q8
+  examples: |
+   - Do I need to write VIT-AP University entrance exam?
+
+- intent: viteee_msc_chemistry_application_q9
+  examples: |
+   - If I am still undertaking a degree, can I apply to your MSc?
+   -  still undertaking a degree, can I apply to your MSc?
+
+- intent: viteee_msc_chemistry_application_q10
+  examples: |
+   - Do I need to submit a transcript at the time of applying for MSc?
+   - I need to submit a transcript at the time of applying for MSc?
+
+- intent: viteee_msc_chemistry_application_q11
+  examples: |
+   - How can I check the progress of my application?
+   -  the progress of my application?
+
+- intent: viteee_msc_chemistry_application_q12
+  examples: |
+   - How will I get the final decision on my application?
+   - will I get the final decision on my application?
+
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-fee    #################
+
+- intent: viteee_msc_chemistry_fee_q1
+  examples: |
+   - How much does it cost to study MSc Chemistry at VIT-AP University?
+   - How cost to study MSc Chemistry at VIT-AP University?
+   - fee of msc chemistry
+
+- intent: viteee_msc_chemistry_fee_q2
+  examples: |
+   - How do I apply for accommodation?
+   - apply for accommodation?
+
+- intent: viteee_msc_chemistry_fee_q3
+  examples: |
+   - Where can I see the structure and courses of each programme?
+   - Where ce structure and courses of each programme?
+   - structure of each course
+
+- intent: viteee_msc_chemistry_fee_q4
+  examples: |
+   - Can I study the MSc part-time?
+   - Can I stuMSc part-time?
+   -is msc part time available
+
+- intent: viteee_msc_chemistry_fee_q5
+  examples: |
+   - I have a question about the programme content/structure which is not answered on the website. Who can I contact with my query?
+   - I have aut the programme content/structuret answered on the website. Who can I contact with my query?
+
+- intent: viteee_msc_chemistry_fee_q6
+  examples: |
+   - Where do the MSc Chemistry students go after course completion?
+   - Where do thehemistry students goe completion?
+
+- intent: viteee_msc_chemistry_fee_q7
+  examples: |
+   - Are the Departments MSc programmes a suitable route to top PhD programmes?
+   - Are the DepaSc programmes a suitate to top PhD programmes?
+
+- intent: viteee_msc_chemistry_fee_q8
+  examples: |
+   - Can I automatically progress from the MSc Chemistry to the PhD programme in VIT-AP University?
+   - Can I autogress from the MSc Chemistry to the Pamme in VIT-AP University?
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-general-info   #################
+
+- intent: viteee_msc_data_science_general_info_q1
+  examples: |
+   - Is there any hostel facility in VIT-AP?
+   - Is te any hostel facility in VIT-AP?
+
+- intent: viteee_msc_data_science_general_info_q2
+  examples: |
+   - Is there any transportation facility for students?
+   - Is there any transportation facr students?
+   - buses for students
+   - is day scholars available
+   - day scholars
+
+- intent: viteee_msc_data_science_general_info_q3
+  examples: |
+   - Can I visit the campus to know more about the program and University?
+   - can i visit campus
+
+- intent: viteee_msc_data_science_general_info_q4
+  examples: |
+   - Where to look to know more information about the Program and the corresponding school?
+   - Where to look to know more info about the Program and the corresponding school?
+   - more information of prgrams and schools
+
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-program-info   #################
+
+- intent: viteee_msc_data_science_program_info_q1
+  examples: |
+   - What is data Science?
+   - What are data Science?
+
+- intent: viteee_msc_data_science_program_info_q2
+  examples: |
+   - Why is it important to join this program?
+   is data science important
+   - Why i it important to join thiprogram?
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-admission   #################
+
+- intent: viteee_msc_data_science_admission_q1
+  examples: |
+   - What are the eligibility criteria for admission into this msc data science program?
+   - data science eligibilty criteria
+
+- intent: viteee_msc_data_science_admission_q2
+  examples: |
+   - When will the application process for admission to this program start?
+   - the application process for admission to this program start?
+
+- intent: viteee_msc_data_science_admission_q3
+  examples: |
+   - What is the closing date for issue of applications?
+   - Wh the closing date for issu pplications?
+
+- intent: viteee_msc_data_science_admission_q4
+  examples: |
+   - When and how can I apply?
+   - Whe how can I apply?
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-courses   #################
+
+- intent: viteee_msc_data_science_courses_q1
+  examples: |
+   - What are the important courses offered in this data science program?
+   - What are the importann courses offered in this data science program?
+
+- intent: viteee_msc_data_science_courses_q2
+  examples: |
+   - Does the curriculum provide industry internship or project-based learning opportunities?
+   - Does the  lum provide industry internship or project-based learning opportunities?
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-finances   #################
+
+- intent: viteee_msc_data_science_finances_q1
+  examples: |
+   - What is the fee structure for this data science program?
+   - fee of data structure program
+
+- intent: viteee_msc_data_science_finances_q2
+  examples: |
+   - Are there any scholarships provided?
+   - Are ther scholarships provided for data science?
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-careers  #################
+
+- intent: viteee_msc_data_science_careers_q1
+  examples: |
+   - What are the career opportunities for the graduates of this data science program?
+
+- intent: viteee_msc_data_science_careers_q2
+  examples: |
+   - Does VIT-AP offer Campus placement facilities?
+   - Does VIT-AP of placement facilities?
+
+
+#################################################################################################################
+
+#####################   viteee-Law    #################
+
+- intent: viteee_Law_q1
+  examples: |
+   - Where is the VIT-AP campus located?  Is VIT-AP University recognised by the UGC?
+   - Where can the VIT-AP campus be found?
+   - Is the VIT-AP University recognized by the UGC for accreditation?
+   - Can you tell me the location of the VIT-AP campus?
+   - Does the UGC acknowledge the accreditation of VIT-AP University?
+   - The VIT-AP campus, where is it situated?
+   - Is VIT-AP University approved by the UGC for accreditation purposes?
+
+- intent: viteee_Law_q2
+  examples: |
+    -What is unique about the curriculum offered by VIT-AP University School of Law (VSL)?
+    -Can you identify what sets the curriculum of VIT-AP University School of Law (VSL) apart from others?
+    -In what way does the curriculum at VIT-AP University School of Law (VSL) stand out from others?
+    -What distinguishes the curriculum provided by VIT-AP University School of Law (VSL) from others?
+    -What makes the curriculum of VIT-AP University School of Law (VSL) different from others?
+    -How does the curriculum at VIT-AP University School of Law (VSL) differ from others?
+    -What is special about the curriculum offered by VIT-AP University School of Law (VSL)?
+
+- intent: viteee_Law_q3
+  examples: |
+    -What are the courses offered at VSL? Is VIT-AP University School of Law (VSL) recognised by the Bar Council of India (BCI)?
+    -Could you provide me with a list of the courses available at VSL? Also, is VIT-AP University School of Law accredited by the Bar Council of India?
+    -I'm interested in knowing the courses that VSL offers. Moreover, has the Bar Council of India recognized VIT-AP University School of Law?
+    -What kind of courses does VSL provide, and is VIT-AP University School of Law approved by the Bar Council of India?
+    -Can you tell me about the courses offered at VSL, and whether or not VIT-AP University School of Law is acknowledged by the Bar Council of India?
+    -I'm curious to know the educational programs available at VSL. Furthermore, has the Bar Council of India accredited VIT-AP University School of Law?
+    -Please inform me about the courses that VSL offers, and let me know if VIT-AP University School of Law is recognized by the Bar Council of India.
+
+- intent: viteee_Law_q4
+  examples: |
+   -What is the faculty strength of VSL?
+   -How many faculty members does VSL have?
+   -What is the number of professors employed at VSL?
+   -Could you tell me the quantity of faculty at VSL?
+   -I am curious about the amount of teaching staff at VSL.
+   -What is the size of VSL's faculty team?
+   -How many educators are there at VSL?
+
+- intent: viteee_Law_q5
+  examples: |
+    -What is the admission procedure for the BA, LL.B (Hons) and BBA, program?
+    -Could you explain the process for gaining admission to the BA, LL.B (Hons) and BBA program?
+    -What steps must be taken to be admitted into the BA, LL.B (Hons) and BBA program?
+    -I'm curious about the admission requirements for the BA, LL.B (Hons) and BBA program. What are they?
+    -Can you tell me how to apply for the BA, LL.B (Hons) and BBA program?
+    -What are the prerequisites for admission to the BA, LL.B (Hons) and BBA program?
+    -How does one gain admission to the BA, LL.B (Hons) and BBA program?
+
+- intent: viteee_Law_q6
+  examples: |
+    -Are courses like BA, LL. B (Hons) and BBA, LL. B (Hons) part of the residential program?
+    -Do the residential program include courses such as BA, LL.B (Hons) and BBA, LL.B (Hons)?
+    -Are BA, LL.B (Hons) and BBA, LL.B (Hons) among the courses offered in the residential program?
+    -Are courses such as BA, LL.B (Hons) and BBA, LL.B (Hons) included in the residential program curriculum?
+    -Are BA, LL.B (Hons) and BBA, LL.B (Hons) part of the courses that are conducted in the residential program?
+    -Can one study BA, LL.B (Hons) and BBA, LL.B (Hons) as part of the residential program?
+    -Is the residential program designed to incorporate courses like BA, LL.B (Hons) and BBA, LL.B (Hons)?
+
+- intent: viteee_Law_q7
+  examples: |
+    -How are the hostel facilities on VIT-AP campus?  
+    -Could you tell me about the hostel facilities available on the VIT-AP campus?
+    -What is the quality of the hostel amenities like on the VIT-AP campus?
+    -Are the hostel facilities provided on the VIT-AP campus satisfactory?
+    -How do the hostel accommodations on the VIT-AP campus compare to other campuses?
+    -I am interested in knowing more about the hostel facilities offered on the VIT-AP campus.
+    -What can you tell me about the housing options available on the VIT-AP campus?
+
+- intent: viteee_Law_q8
+  examples: |
+    -Are placements provided by the University?
+    -Does the University offer job placements?
+    -Are students provided with placement opportunities by the University?
+    -Is it the responsibility of the University to provide placements?
+    -Are placement services offered by the University?
+    -Does the University facilitate job placements for students?
+    -Are there opportunities for students to secure placements through the University?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-gen    #################
+
+- intent: viteee_Bsc_gen_q1
+  examples: |
+   -Does VIT-AP offer any hostel accommodations?
+   -Are there any hostel facilities available at VIT-AP?
+   -Can students find lodging options at VIT-AP?
+   -Is there a provision for hostels at VIT-AP?
+   -Does VIT-AP provide dormitory services for students?
+   -Are there any arrangements for student housing at VIT-AP?
+
+- intent: viteee_Bsc_gen_q2
+  examples: |
+    -Is there any transportation facility for students?
+    -Do students have access to any means of transportation?
+    -Are there any modes of transportation available for students?
+    -Are there any transportation options for students to use?
+    -Is there any form of transportation that students can utilize?
+    -Are students provided with any transportation facilities?
+    -Can students avail themselves of any transportation services?
+
+- intent: viteee_Bsc_gen_q3
+  examples: |
+    -Can I visit the campus to know more about the program and University?
+    -Is it possible for me to come to the campus in order to gain a better understanding of the program and the university?
+    -Would it be permissible for me to visit the campus and learn more about the program and university?
+    -Could I arrange to visit the campus and receive additional information about the program and university?
+    -May I schedule a visit to the campus to acquire further knowledge about the program and university?
+    -Is there a chance for me to tour the campus and become better acquainted with the program and university?
+    -Would it be feasible for me to come to the campus and get a more comprehensive understanding of the program and university?
+
+- intent: viteee_Bsc_gen_q4
+  examples: |
+   -Where to look to know more information about the Program and the corresponding school?
+   -What resources can I use to find out more about the Program and its affiliated school?
+   -Are there any sources that provide additional information about the Program and the associated institution?
+   -How can I gather more details about the Program and the corresponding school?
+   -What avenues should I explore to learn more about the Program and its linked academic institution?
+   -Can you suggest any resources for me to learn more about the Program and the related school?
+   -In what ways can I obtain further information about the Program and the corresponding educational institution?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-info    #################
+
+- intent: viteee_Bsc_info_q1
+  examples: |
+   -What is data Science?
+   -How would you define data science?
+   -Could you explain what data science means?
+   -What exactly is data science?
+   -In your own words, what is the definition of data science?
+   -What does the term data science refer to?
+   -Can you provide a description of data science?
+
+- intent: viteee_Bsc_info_q2
+  examples: |
+    -Why is it important to join this program?
+    -What makes this program important to be a part of?
+    -What are the reasons for joining this program?
+    -Why would it be beneficial to enroll in this program?
+    -What advantages does this program offer that make it worth joining?
+    -How does joining this program contribute to achieving one's goals?
+    -In what ways can participating in this program be valuable?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-eligibility    #################
+
+- intent: viteee_Bsc_eli_q1
+  examples: |
+   -What are the eligibility criteria for admission into this program?
+   -Could you provide me with the requirements needed to be eligible for admission to this program?
+   -What are the qualifications necessary to gain acceptance into this program?
+   -I would like to know what the admission criteria are for this program, could you please inform me?
+   -Can you tell me what the prerequisites are for enrolling in this program?
+   -What are the conditions that need to be met in order to be considered for admission into this program?
+   -Could you enlighten me on the standards one must meet to be eligible for this program?
+
+- intent: viteee_Bsc_eli_q2
+  examples: |
+    -I have studied Mathematics in my Intermediate or 10+2, can I apply for this program?
+    -I have not studied Mathematics in my Intermediate or 10+2, can I apply for this program?
+    -I have not studied Mathematics in my  10+2, can I apply for this program?
+    -I have not studied Mathematics in my Intermediate , can I apply for this program?
+    -I have not studied Mathematics in my Intermediate or 10+2, can I apply for this program?
+    -I have not studied Mathematics in my Intermediate or 10+2, can I apply for this program?
+
+- intent: viteee_Bsc_eli_q3
+  examples: |
+   -What is dual degree Program?
+   -What is meant dual degree Program?
+   -What is by dual degree Program?
+   -What is meant by dual degre Program?
+   -What is meant by dual degree Program?
+   -What is meant by dual degree Prom?
+
+- intent: viteee_Bsc_eli_q4
+  examples: |
+    -What is exit option? When can I exercise it?
+    -What is exit? When can I exercise it?
+    -What is exit option? When can I t?
+    -What is exit ? When can I?
+    -What is exit option? When can I exercise it?
+    -What is exit option? When can I exercise it?
+
+- intent: viteee_Bsc_eli_q5
+  examples: |
+   -When will the application process for admission to this program start?
+   -When will application process for admission to this program start?
+   -When will the application process for admission to this program start?
+   -When will the application process for admission to program start?
+   -When will the process for admission to this program start?
+   -When will the application process admission to this program start?
+
+- intent: viteee_Bsc_eli_q6
+  examples: |
+    -What is the closing for issue of applications?
+    -What is the closing date issue of applications?
+    -What is the closing date for issue applications?
+    -What is the closing date for issue of applications?
+    -What is the closing date for issue ?
+    -What is the closing date for issue of applications?
+- intent: viteee_Bsc_eli_q7
+  examples: |
+   -When and how can I?
+   -When and how I apply?
+   -When and how apply?
+   -When and how can I apply?
+   -When and how can I apply?
+   -When and how can I apply?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-choosing    #################
+
+- intent: viteee_Bsc_cho_q1
+  examples: |
+   -What are the offered in this program?
+   -What are the courses offered in this program?
+   -What are the important offered in this program?
+   -What are the important courses offered in this program?
+   -What are the important courses offered in this program?
+   -What are the important courses offered in this program?
+   -What are the important courses offered in this program?
+
+- intent: viteee_Bsc_cho_q2
+  examples: |
+    -Does the curriculum industry internship or project-based learning opportunities?
+    -Does the curriculum provide internship or project-based learning opportunities?
+    -Does the curriculum provide industry internship or project-based learning opportunities?
+    -Does the curriculum provide industry internship or project-based learning opportunities?
+    -Does the curriculum provide industry internship ooject-based learning opportunities?
+    -Does the curriculum provide industry internship or project-based learning opportunities?
+    -Does the curriculum provide industry internship ject-based learning opportunities?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-finance    #################
+
+- intent: viteee_Bsc_fin_q1
+  examples: |
+   -What is the fee structure for this program?
+   -What is the fee stris program?
+   -What is the fee structure for this program?
+   -What is the fee strhis program?
+
+- intent: viteee_Bsc_fin_q2
+  examples: |
+    -Are there any scholarships provided?
+    -Are there anips provided?
+    -Are there any scholarships provided?
+    -Are there any scholarships provided?
+    -Are there any scholarships provided?
+    -Are there any sships provided?
+
+#################################################################################################################
+
+#####################   viteee-Bsc-career    #################
+
+- intent: viteee_Bsc_car_q1
+  examples: |
+   -What are the career opportunities for the graduates of this program?
+   -What are thopportunities for the graduates of this program?
+   -What are the career opportunities for the graduates of this program?
+   -What are the career opportunities for the graduates of this program?
+   -What are the career oppofor the graduates of this program?
+
+- intent: viteee_Bsc_car_q2
+  examples: |
+    -Does VIT-AP offer Campus placement facilities?
+    -Does VIT-AP offer Campus placement facilities?
+    -Does VIT-AP ofs placement facilities?
+    -Does VIT-AP offer Campus placement facilities?
+    -Does VIT-AP offer Campus placement facilities?
+    -Does VIT-AP offer Campus placement facilities?
+    -Does VIT-AP offer C?'
+
+
+#################################################################################################################
+
+#####################   UPSC ################# 
+
+- intent: viteee_upsc_q1
+  examples: |
+   - What is the duration of the upsc programme?
+   - upsc programme duration
+   - duration of upsc couse
+
+- intent: viteee_upsc_q2
+  examples: |
+   - How many semesters should one study to appear for UPSC exams?
+   - eligibilty semesters for upsc
+
+- intent: viteee_upsc_q3
+  examples: |
+   - What if one does not clear the UPSC exams?
+   - what if i not completed upsc exam
+   - not completed upsc exam
+
+- intent: viteee_upsc_q4
+  examples: |
+   - What are the opportunities abroad for this upsc programme?
+   - abroad oppurtunies for upsc
+   - upsc abroad chances
+
+- intent: viteee_upsc_q5
+  examples: |
+   - Are there Placement opportunities for this upsc programme?
+   - placements for upsc 
+   - upsc placements
+  
+- intent: viteee_upsc_q6
+  examples: |
+   - Which UPSC Optional papers are covered in the programme?
+   - upsc paper
+
+- intent: viteee_upsc_q7
+  examples: |
+   -  Can a person with any degree apply for this programme?
+   - can i apply for upsc
+
+- intent: viteee_upsc_q8
+  examples: |
+   - What can a student expect at the end of the upsc programme?
+   - ending of upsc programme
+   - ending of upsc course
+
+- intent: viteee_upsc_q9
+  examples: |
+   - Will the University help us get trained again after we miss the first attempt?
+
+- intent: viteee_upsc_q10
+  examples: |
+   - Does the programme offer free study materials?
+   - upsc study materials
+   - study materials for upsc
+
+- intent: viteee_upsc_q11
+  examples: |
+   - Are there separate fees for the training?
+   - fee for upsc training
+   -fee for upsc course
+
+- intent: viteee_upsc_q12
+  examples: |
+   - Will there be interactions with those who have cleared the UPSC exams?
+   - can i meet upsc seniors
+   - can i meet upsc
+
+- intent: viteee_upsc_q13
+  examples: |
+   - How is this degree different from other IAS Coaching Centres?
+   - how upsc is different
+
+- intent: viteee_upsc_q14
+  examples: |
+   - How will the upsc exams be conducted?
+   - upsc exam 

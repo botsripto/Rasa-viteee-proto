@@ -1,0 +1,524 @@
+version: "3.1"
+
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+  - intent: aboutbot
+  - action: utter_aboutbot
+
+
+- story: viteee_faq-general
+  steps:
+####################  general ####################
+    - intent: viteee_faq_general_q1
+    - action: utter_viteee_faq_general_q1
+
+    - intent: viteee_faq_general_q2
+    - action: utter_viteee_faq_general_q2
+
+    - intent: viteee_faq_general_q3
+    - action: utter_viteee_faq_general_q3
+
+    - intent: viteee_faq_general_q4
+    - action: utter_viteee_faq_general_q4
+
+    - intent: viteee_faq_general_q5
+    - action: utter_viteee_faq_general_q5
+
+    - intent: viteee_faq_general_q6
+    - action: utter_viteee_faq_general_q6
+
+    - intent: viteee_faq_general_q7
+    - action: utter_viteee_faq_general_q7
+
+    - intent: viteee_faq_general_q8
+    - action: utter_viteee_faq_general_q8
+
+####################  admission ####################
+- story: viteee_faq_admission
+  steps:  
+    - intent: viteee_faq_admission_q1
+    - action: utter_viteee_faq_admission_q1
+
+    - intent: viteee_faq_admission_q2
+    - action: utter_viteee_faq_admission_q2
+
+####################  related ####################
+- story: viteee_faq_related
+  steps:  
+    - intent: viteee_faq_related_q1
+    - action: utter_viteee_faq_related_q1
+
+    - intent: viteee_faq_related_q2
+    - action: utter_viteee_faq_related_q2
+
+    - intent: viteee_faq_related_q3
+    - action: utter_viteee_faq_related_q3
+
+    - intent: viteee_faq_related_q4
+    - action: utter_viteee_faq_related_q4
+
+    - intent: viteee_faq_related_q5
+    - action: utter_viteee_faq_related_q5
+
+    - intent: viteee_faq_related_q6
+    - action: utter_viteee_faq_related_q6
+
+    - intent: viteee_faq_related_q7
+    - action: utter_viteee_faq_related_q7
+
+    - intent: viteee_faq_related_q8
+    - action: utter_viteee_faq_related_q8
+
+    - intent: viteee_faq_related_q9
+    - action: utter_viteee_faq_related_q9
+
+####################  eligibility-related ####################
+- story: viteee_faq_eligibility_related
+  steps:
+    - intent: viteee_faq_eligibility_related_q1
+    - action: utter_viteee_faq_eligibility_related_q1
+
+    - intent: viteee_faq_eligibility_related_q2
+    - action: utter_viteee_faq_eligibility_related_q2
+
+    - intent: viteee_faq_eligibility_related_q3
+    - action: utter_viteee_faq_eligibility_related_q3
+
+    - intent: viteee_faq_eligibility_related_q4
+    - action: utter_viteee_faq_eligibility_related_q4
+
+####################  ranking-related ####################
+- story: viteee_faq_ranking_related
+  steps:
+    - intent: viteee_faq_ranking_related_q1
+    - action: utter_viteee_faq_ranking_related_q1
+
+    - intent: viteee_faq_ranking_related_q2
+    - action: utter_viteee_faq_ranking_related_q2
+
+    - intent: viteee_faq_ranking_related_q3
+    - action: utter_viteee_faq_ranking_related_q3
+
+    - intent: viteee_faq_ranking_related_q4
+    - action: utter_viteee_faq_ranking_related_q4
+
+####################  transaction-related ####################
+- story: viteee_faq_transaction_related
+  steps:
+    - intent: viteee_faq_transaction_related_q1
+    - action: utter_viteee_faq_transaction_related_q1
+
+    - intent: viteee_faq_transaction_related_q2
+    - action: utter_viteee_faq_transaction_related_q2
+
+    - intent: viteee_faq_transaction_related_q3
+    - action: utter_viteee_faq_transaction_related_q3
+
+    - intent: viteee_faq_transaction_related_q4
+    - action: utter_viteee_faq_transaction_related_q4
+
+####################  slot-booking ####################
+- story: viteee_faq_slot_booking
+  steps:
+    - intent: viteee_faq_slot_booking_q1
+    - action: utter_viteee_faq_slot_booking_q1
+
+    - intent: viteee_faq_slot_booking_q2
+    - action: utter_viteee_faq_slot_booking_q2
+
+    - intent: viteee_faq_slot_booking_q3
+    - action: utter_viteee_faq_slot_booking_q3
+
+    - intent: viteee_faq_slot_booking_q4
+    - action: utter_viteee_faq_slot_booking_q4
+
+    - intent: viteee_faq_slot_booking_q5
+    - action: utter_viteee_faq_slot_booking_q5
+
+    - intent: viteee_faq_slot_booking_q6
+    - action: utter_viteee_faq_slot_booking_q6
+
+####################  scholarship ####################
+- story: viteee_faq_scholarship
+  steps:
+    - intent: viteee_faq_scholarship_q1
+    - action: utter_viteee_faq_scholarship_q1
+
+    - intent: viteee_faq_scholarship_q2
+    - action: utter_viteee_faq_scholarship_q2
+
+####################  hostel ####################
+- story: viteee_faq_hostel
+  steps:
+    - intent: viteee_faq_hostel_q1
+    - action: utter_viteee_faq_hostel_q1
+
+    - intent: viteee_faq_hostel_q2
+    - action: utter_viteee_faq_hostel_q2
+
+####################  academic ####################
+- story: viteee_faq_academic
+  steps:
+    - intent: viteee_faq_academic_q1
+    - action: utter_viteee_faq_academic_q1
+
+    - intent: viteee_faq_academic_q2
+    - action: utter_viteee_faq_academic_q2
+
+    - intent: viteee_faq_academic_q3
+    - action: utter_viteee_faq_academic_q3
+
+    - intent: viteee_faq_academic_q4
+    - action: utter_viteee_faq_academic_q4
+
+    - intent: viteee_faq_academic_q5
+    - action: utter_viteee_faq_academic_q5
+
+    - intent: viteee_faq_academic_q6
+    - action: utter_viteee_faq_academic_q6
+
+####################  NRI ####################
+- story: viteee_faq_nri
+  steps:
+    - intent: viteee_faq_nri_q1
+    - action: utter_viteee_faq_nri_q1
+
+    - intent: viteee_faq_academic_q2
+    - action: utter_viteee_faq_nri_q2
+
+    - intent: viteee_faq_nri_q3
+    - action: utter_viteee_faq_nri_q3
+
+    - intent: viteee_faq_nri_q4
+    - action: utter_viteee_faq_nri_q4
+
+    - intent: viteee_faq_nri_q5
+    - action: utter_viteee_faq_nri_q5
+
+#################################################################################################################
+
+#####################   viteee-B.Comm    #################
+
+- story: viteee_BComm
+  steps:
+  - intent: viteee_BComm_q1
+  - action: utter_viteee_BComm_q1
+  - intent: viteee_BComm_q2
+  - action: utter_viteee_BComm_q2
+  - intent: viteee_BComm_q3
+  - action: utter_viteee_BComm_q3
+  - intent: viteee_BComm_q4
+  - action: utter_viteee_BComm_q4
+  - intent: viteee_BComm_q5
+  - action: utter_viteee_BComm_q5
+
+#################################################################################################################
+
+#####################   viteee-BBA-about    #################
+
+- story: viteee_BBA_about
+  steps:
+    - intent: viteee_BBA_about_q1
+    - action: utter_viteee_BBA_about_q1
+    - intent: viteee_BBA_about_q2
+    - action: utter_viteee_BBA_about_q2
+    - intent: viteee_BBA_about_q3
+    - action: utter_viteee_BBA_about_q3
+    - intent: viteee_BBA_about_q4
+    - action: utter_viteee_BBA_about_q4
+    - intent: viteee_BBA_about_q5
+    - action: utter_viteee_BBA_about_q5
+    - intent: viteee_BBA_about_q6
+    - action: utter_viteee_BBA_about_q6
+
+
+#################################################################################################################
+
+#####################   viteee-msc-physics    #################
+
+- story: viteee_msc_physics
+  steps:
+  - intent: viteee_msc_physics_q1
+  - action: utter_viteee_msc_physics_q1
+  - intent: viteee_msc_physics_q2
+  - action: utter_viteee_msc_physics_q2
+  - intent: viteee_msc_physics_q3
+  - action: utter_viteee_msc_physics_q3
+  - intent: viteee_msc_physics_q4
+  - action: utter_viteee_msc_physics_q4
+  - intent: viteee_msc_physics_q5
+  - action: utter_viteee_msc_physics_q5
+  - intent: viteee_msc_physics_q6
+  - action: utter_viteee_msc_physics_q6
+
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-application    #################
+
+- story: viteee_msc_chemistry_application
+  steps:
+  - intent: viteee_msc_chemistry_application_q1
+  - action: utter_viteee_msc_chemistry_application_q1
+  - intent: viteee_msc_chemistry_application_q2
+  - action: utter_viteee_msc_chemistry_application_q2
+  - intent: viteee_msc_chemistry_application_q3
+  - action: utter_viteee_msc_chemistry_application_q3
+  - intent: viteee_msc_chemistry_application_q4
+  - action: utter_viteee_msc_chemistry_application_q4
+  - intent: viteee_msc_chemistry_application_q5
+  - action: utter_viteee_msc_chemistry_application_q5
+  - intent: viteee_msc_chemistry_application_q6
+  - action: utter_viteee_msc_chemistry_application_q6
+  - intent: viteee_msc_chemistry_application_q7
+  - action: utter_viteee_msc_chemistry_application_q7
+  - intent: viteee_msc_chemistry_application_q8
+  - action: utter_viteee_msc_chemistry_application_q8
+  - intent: viteee_msc_chemistry_application_q9
+  - action: utter_viteee_msc_chemistry_application_q9
+  - intent: viteee_msc_chemistry_application_q10
+  - action: utter_viteee_msc_chemistry_application_q10
+  - intent: viteee_msc_chemistry_application_q11
+  - action: utter_viteee_msc_chemistry_application_q11
+  - intent: viteee_msc_chemistry_application_q12
+  - action: utter_viteee_msc_chemistry_application_q12
+
+#################################################################################################################
+
+#####################   viteee-msc-chemistry-fee    #################
+
+- story: viteee_msc_chemistry_fee
+  steps:
+  - intent: viteee_msc_chemistry_fee_q1
+  - action: utter_viteee_msc_chemistry_fee_q1
+  - intent: viteee_msc_chemistry_fee_q2
+  - action: utter_viteee_msc_chemistry_fee_q2
+  - intent: viteee_msc_chemistry_fee_q3
+  - action: utter_viteee_msc_chemistry_fee_q3
+  - intent: viteee_msc_chemistry_fee_q4
+  - action: utter_viteee_msc_chemistry_fee_q4
+  - intent: viteee_msc_chemistry_fee_q5
+  - action: utter_viteee_msc_chemistry_fee_q5
+  - intent: viteee_msc_chemistry_fee_q6
+  - action: utter_viteee_msc_chemistry_fee_q6
+  - intent: viteee_msc_chemistry_fee_q7
+  - action: utter_viteee_msc_chemistry_fee_q7
+  - intent: viteee_msc_chemistry_fee_q8
+  - action: utter_viteee_msc_chemistry_fee_q8
+  
+#################################################################################################################
+
+#####################   viteee-msc-data-science-general-info   #################
+
+- story: viteee_msc_data_science_general_info
+  steps:
+  - intent: viteee_msc_data_science_general_info_q1
+  - action: utter_viteee_msc_data_science_general_info_q1
+  - intent: viteee_msc_data_science_general_info_q2
+  - action: utter_viteee_msc_data_science_general_info_q2
+  - intent: viteee_msc_data_science_general_info_q3
+  - action: utter_viteee_msc_data_science_general_info_q3
+  - intent: viteee_msc_data_science_general_info_q4
+  - action: utter_viteee_msc_data_science_general_info_q4
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-program-info   #################
+
+- story: viteee_msc_data_science_program_info
+  steps:
+  - intent: viteee_msc_data_science_program_info_q1
+  - action: utter_viteee_msc_data_science_program_info_q1
+  - intent: viteee_msc_data_science_program_info_q2
+  - action: utter_viteee_msc_data_science_program_info_q2
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-admission   #################
+
+- story: viteee_msc_data_science_admission
+  steps:
+  - intent: viteee_msc_data_science_admission_q1
+  - action: utter_viteee_msc_data_science_admission_q1
+  - intent: viteee_msc_data_science_admission_q2
+  - action: utter_viteee_msc_data_science_admission_q2
+  - intent: viteee_msc_data_science_admission_q3
+  - action: utter_viteee_msc_data_science_admission_q3
+  - intent: viteee_msc_data_science_admission_q4
+  - action: utter_viteee_msc_data_science_admission_q4
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-program-info   #################
+
+- story: viteee_msc_data_science_courses
+  steps:
+  - intent: viteee_msc_data_science_courses_q1
+  - action: utter_viteee_msc_data_science_courses_q1
+  - intent: viteee_msc_data_science_courses_q2
+  - action: utter_viteee_msc_data_science_courses_q2
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-finances   #################
+
+- story: viteee_msc_data_science_finances
+  steps:
+  - intent: viteee_msc_data_science_finances_q1
+  - action: utter_viteee_msc_data_science_finances_q1
+  - intent: viteee_msc_data_science_finances_q2
+  - action: utter_viteee_msc_data_science_finances_q2
+
+#################################################################################################################
+
+#####################   viteee-msc-data-science-careers  #################
+
+- story: viteee_msc_data_science_careers
+  steps:
+  - intent: viteee_msc_data_science_careers_q1
+  - action: utter_viteee_msc_data_science_careers_q1
+  - intent: viteee_msc_data_science_careers_q2
+  - action: utter_viteee_msc_data_science_careers_q2
+
+#################################################################################################################
+
+#####################   viteee-Law    #################
+
+- story: viteee_Law
+  steps:
+  - intent: viteee_Law_q1
+  - action: utter_viteee_Law_q1
+  - intent: viteee_Law_q2
+  - action: utter_viteee_Law_q2
+  - intent: viteee_Law_q3
+  - action: utter_viteee_Law_q3
+  - intent: viteee_Law_q4
+  - action: utter_viteee_Law_q4
+  - intent: viteee_Law_q5
+  - action: utter_viteee_Law_q5
+  - intent: viteee_Law_q6
+  - action: utter_viteee_Law_q6
+  - intent: viteee_Law_q7
+  - action: utter_viteee_Law_q7
+  - intent: viteee_Law_q8
+  - action: utter_viteee_Law_q8
+
+#################################################################################################################
+
+#####################   viteee-Bsc-gen    #################
+
+- story: viteee_Bsc_gen
+  steps:
+  - intent: viteee_Bsc_gen_q1
+  - action: utter_viteee_Bsc_gen_q1
+  - intent: viteee_Bsc_gen_q2
+  - action: utter_viteee_Bsc_gen_q2
+  - intent: viteee_Bsc_gen_q3
+  - action: utter_viteee_Bsc_gen_q3
+  - intent: viteee_Bsc_gen_q4
+  - action: utter_viteee_Bsc_gen_q4
+
+
+#################################################################################################################
+
+#####################   viteee-Bsc-info    #################
+
+- story: viteee_Bsc_info
+  steps:
+  - intent: viteee_Bsc_info_q1
+  - action: utter_viteee_Bsc_info_q1
+  - intent: viteee_Bsc_info_q2
+  - action: utter_viteee_Bsc_info_q2
+
+#################################################################################################################
+
+#####################   viteee-Bsc-eligibility    #################
+
+- story: viteee_Bsc_eli
+  steps:
+  - intent: viteee_Bsc_eli_q1
+  - action: utter_viteee_Bsc_eli_q1
+  - intent: viteee_Bsc_eli_q2
+  - action: utter_viteee_Bsc_eli_q2
+  - intent: viteee_Bsc_eli_q3
+  - action: utter_viteee_Bsc_eli_q3
+  - intent: viteee_Bsc_eli_q4
+  - action: utter_viteee_Bsc_eli_q4
+  - intent: viteee_Bsc_eli_q5
+  - action: utter_viteee_Bsc_eli_q5
+  - intent: viteee_Bsc_eli_q6
+  - action: utter_viteee_Bsc_eli_q6
+  - intent: viteee_Bsc_eli_q7
+  - action: utter_viteee_Bsc_eli_q7
+
+#################################################################################################################
+
+#####################   viteee-Bsc-choosing    #################
+
+- story: viteee_Bsc_cho
+  steps:
+  - intent: viteee_Bsc_cho_q1
+  - action: utter_viteee_Bsc_cho_q1
+  - intent: viteee_Bsc_cho_q2
+  - action: utter_viteee_Bsc_cho_q2
+
+#################################################################################################################
+
+#####################   viteee-Bsc-finance    #################
+
+- story: viteee_Bsc_fin
+  steps:
+  - intent: viteee_Bsc_fin_q1
+  - action: utter_viteee_Bsc_fin_q1
+  - intent: viteee_Bsc_fin_q2
+  - action: utter_viteee_Bsc_fin_q2
+
+#################################################################################################################
+
+#####################   viteee-Bsc-career    #################
+
+- story: viteee_Bsc_car
+  steps:
+  - intent: viteee_Bsc_car_q1
+  - action: utter_viteee_Bsc_car_q1
+  - intent: viteee_Bsc_car_q2
+  - action: utter_viteee_Bsc_car_q2
+
+#################################################################################################################
+
+#####################   viteee-upsc    #################
+
+- story: viteee_upsc
+  steps:
+  - intent: viteee_upsc_q1
+  - action: utter_viteee_upsc_q1
+  - intent: viteee_upsc_q2
+  - action: utter_viteee_upsc_q2
+  - intent: viteee_upsc_q3
+  - action: utter_viteee_upsc_q3
+  - intent: viteee_upsc_q4
+  - action: utter_viteee_upsc_q4
+  - intent: viteee_upsc_q5
+  - action: utter_viteee_upsc_q5
+  - intent: viteee_upsc_q6
+  - action: utter_viteee_upsc_q6
+  - intent: viteee_upsc_q7
+  - action: utter_viteee_upsc_q7
+  - intent: viteee_upsc_q8
+  - action: utter_viteee_upsc_q8
+  - intent: viteee_upsc_q9
+  - action: utter_viteee_upsc_q9
+  - intent: viteee_upsc_q10
+  - action: utter_viteee_upsc_q10
+  - intent: viteee_upsc_q11
+  - action: utter_viteee_upsc_q11
+  - intent: viteee_upsc_q12
+  - action: utter_viteee_upsc_q12
+  - intent: viteee_upsc_q13
+  - action: utter_viteee_upsc_q13
+  - intent: viteee_upsc_q14
+  - action: utter_viteee_upsc_q14
